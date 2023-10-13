@@ -10,6 +10,10 @@ const Block = ({ title, period, children}: {title: string, period: string, child
     <article className={styles.block}>
       <div className={styles.squareBlock}>
         <div className={styles.square}></div>
+        <div className={styles.line}>
+          <div className={styles.squareLeft}></div>
+          <div className={styles.squareRight}></div>
+        </div>
       </div>
 
       <div className={styles.textBlock}>
