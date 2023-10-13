@@ -6,5 +6,8 @@
   "phoneLabel": "+32 496 75 42 60",
   "phoneValue": "tel:+32 496 75 42 60",
   "street": "Ridder van Parijsstraat 43",
-  "city": "2170 Merksem"
+  "city": "2170 Merksem",
+  "intro1": "Hello! I'm a passionate Medior Frontend Developer with a Bachelor's Degree in Applied Informatics.",
+  "intro2": "At 25, I've already gained valuable work and academic experience in test-driven, agile website development. I've honed my skills at Oddball / Purple Panda and DXC FDS.",
+  "intro3": "Now I'm now eager to take on a new challenge as a Frontend Developer, preferably in the Antwerp area."
 }

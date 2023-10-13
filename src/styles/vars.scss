@@ -1,0 +1,7 @@
+$break-md: 768px;
+$spacing-bace: .8rem;
+
+%page-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
