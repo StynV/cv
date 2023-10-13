@@ -1,0 +1,42 @@
+@import "../../../styles/vars.scss";
+
+.block {
+  @extend %page-container;
+
+  grid-template-areas: 'square square textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock';
+  gap: calc(#{$spacing-bace} * 1);
+
+  .squareBlock {
+    grid-area: square;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    .square {
+      width: 4rem;
+      height: 4rem;
+      background-color: #E3FDFD;
+      transform: rotate(45deg);
+    }
+  }
+
+  .textBlock {
+    grid-area: textBlock;
+    margin-top: calc(#{$spacing-bace} * 1);
+
+    .blockHeader {
+      display: flex;
+      align-items: center;
+      margin-bottom: calc(#{$spacing-bace} * 1);
+
+      .title {
+        flex-grow: 1;
+      }
+
+      .period {
+        font-weight: 100;
+      }
+    }
+  }
+}

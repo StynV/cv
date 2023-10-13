@@ -4,6 +4,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Header from '@/components/Header/Header'
 import Intro from '@/components/Intro/Intro'
 import Meta from '@/components/Meta/Meta'
+import WorkExperience from '@/components/WorkExperience/WorkExperience'
 
 const Home = () => {
   const { t } = useTranslation('common')
@@ -15,6 +16,7 @@ const Home = () => {
       <main className={styles.main}>
         <Header />
         <Intro />
+        <WorkExperience />
       </main>
     </>
   )

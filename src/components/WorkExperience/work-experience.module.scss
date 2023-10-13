@@ -1,6 +1,6 @@
 @import "../../styles/vars.scss";
 
-.intro {
+.workExperience {
   @extend %page-container;
 
   grid-template-columns: 1fr;
@@ -10,8 +10,7 @@
     padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
   }
 
-  .text {
-    font-size: $font-size;
-    text-align: justify;
+  .title {
+    margin-bottom: calc(#{$spacing-bace} * 2);
   }
 }

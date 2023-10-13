@@ -9,5 +9,50 @@
   "city": "2170 Merksem",
   "intro1": "Hello! I'm a passionate Medior Frontend Developer with a Bachelor's Degree in Applied Informatics.",
   "intro2": "<p>At 25, I've already gained valuable work and academic experience in test-driven, agile website development. I've honed my skills at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
-  "intro3": "Now I'm now eager to take on a new challenge as a Frontend Developer, preferably in the Antwerp area."
+  "intro3": "Now I'm now eager to take on a new challenge as a Frontend Developer, preferably in the Antwerp area.",
+  "technologies": {
+    "frontend": "Frontend",
+    "nextjs": "NextJS / React",
+    "typescript": "Typescript",
+    "jest": "Jest",
+    "backend": "Backend",
+    "strapi": "Strapi",
+    "s3": "AWS S3",
+    "hosting": "Hosting",
+    "cloud": "Google Cloud",
+    "appEngine": "App Engine",
+    "sql": "SQL (PostgreSQL)",
+    "cloudBuild": "Cloud Build",
+    "mail": "Mailgun / EmailJS"
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "block1": {
+      "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
+      "period": "January 2023 - November 2023",
+      "text1": "<p>I worked as a dedicated Frontend Developer with a proven track record at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a>, which later merged with <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a>.</p>",
+      "text2": "Initially part of a four-member team, I eventually took on the responsibility of leading the team single-handedly. Specializing in React development, I have also gained experience in deploying websites to Google Cloud.",
+      "text3": "I am seeking opportunities to leverage my technical skills and leadership experience in a challenging new role.",
+      "keyProjects": "Key Projects",
+      "tvc": {
+        "title": "TheValueChain",
+        "description": "<p>I co-developed the website for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>'s largest company. Responsibilities included creating the website itself using components, bug fixes and handling change requests post-launch.</p>"
+      },
+      "brightest": {
+        "title": "Brightest",
+        "description": "<p>Our team also developed a website for Gumption's second largest company. The project involved similar tasks and technologies as <a href=\"https://thevaluechain.eu/en\" target=\"_blank\">TheValueChain</a>, including post-launch maintenance.</p>"
+      },
+      "linc": {
+        "title": "Linc.legal",
+        "description": "I collaborated on the creation of a website for a law firm based in Antwerp, using the same technology stack as the previous projects."
+      },
+      "technologies": "All of these websites use these technologies:",
+      "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
+    },
+    "block2": {
+      "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
+      "period": "September 2020 - December 2022",
+      "text1": "<p>Here I worked primarily as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>"
+    }
+  }
 }
