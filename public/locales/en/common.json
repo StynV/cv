@@ -17,13 +17,31 @@
     "jest": "Jest",
     "backend": "Backend",
     "strapi": "Strapi",
-    "s3": "AWS S3",
+    "awsS3": "AWS S3",
     "hosting": "Hosting",
     "cloud": "Google Cloud",
     "appEngine": "App Engine",
     "sql": "SQL (PostgreSQL)",
     "cloudBuild": "Cloud Build",
-    "mail": "Mailgun / EmailJS"
+    "mail": "Mailgun / EmailJS",
+    "react": "React",
+    "reactQuery": "React Query",
+    "cypress": "Cypress",
+    "i18n": "i18n",
+    "context": "Context",
+    "webComponents": "Webcomponents",
+    "storybook": "Storybook",
+    "spring": "Java / Spring Boot",
+    "rest": "Rest API",
+    "hibernate": "Hibernate",
+    "junit": "JUnit",
+    "mockito": "Mockito",
+    "oracle": "Oracle SQL",
+    "aws": "AWS",
+    "sns": "SNS",
+    "sqs": "SQS",
+    "s3": "S3",
+    "figma": "Figma"
   },
   "workExperience": {
     "title": "Work Experience",
@@ -52,7 +70,9 @@
     "block2": {
       "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
       "period": "September 2020 - December 2022",
-      "text1": "<p>Here I worked primarily as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>"
+      "text1": "<p>Here I worked primarily as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>",
+      "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website that allows civilians to view nearby construction projects on a map.</p>",
+      "technologies": "Used technologies:"
     }
   }
 }

@@ -36,7 +36,7 @@ const Block1 = () => {
             <p>{t('technologies.jest')}</p>
             <h3 className={styles.linkTitle}>{t('technologies.backend')}</h3>
             <p>{t('technologies.strapi')}</p>
-            <p>{t('technologies.s3')}</p>
+            <p>{t('technologies.awsS3')}</p>
             <h3 className={styles.linkTitle}>{t('technologies.hosting')}</h3>
             <h4>{t('technologies.cloud')}</h4>
             <p>{t('technologies.appEngine')}</p>

@@ -9,6 +9,7 @@ const Block2 = () => {
     return (
         <Block title={t('workExperience.block2.title')} period={t('workExperience.block2.period')}>
             <YGWYS html={t('workExperience.block2.text1')} className={`${styles.text} ${styles.textIntro}`} />
+            <YGWYS html={t('workExperience.block2.text2')} className={styles.text} />
         </Block>
     )
 }
