@@ -1,11 +1,49 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+$break-md: 768px;
+$spacing-bace: .8rem;
 
+%page-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  @media (min-width: $break-md) {
+    padding: calc(#{$spacing-bace} * 10) calc(#{$spacing-bace} * 20);
+  }
+}
+
+.main {
   background-color: white;
   color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  .header {
+    @extend %page-container;
+
+    grid-template-areas: 'text text text text text text text text img img img img';
+
+    background-color: #E3FDFD;
+
+    .text {
+      grid-area: text;
+      display: flex;
+      flex-direction: column;
+
+      gap: calc(#{$spacing-bace} * 2);
+
+      .function, .mail, .phone, .street, .city {
+        font-weight: 100;
+      }
+
+      .mail, .phone, .street, .city {
+        font-size: 18px;
+      }
+    }
+
+    .img {
+      grid-area: img;
+      border-radius: calc(#{$spacing-bace} * 2);
+      object-fit: cover;
+      object-position: top;
+    }
+  }
 }
+

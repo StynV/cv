@@ -1,3 +1,10 @@
 {
-  "name": "Styn Vercauteren"
+  "name": "Styn Vercauteren",
+  "function": "Frontend developer",
+  "mailLabel": "styn.vercauteren@outlook.com",
+  "mailValue": "mailto:styn.vercauteren@outlook.com",
+  "phoneLabel": "+32 496 75 42 60",
+  "phoneValue": "tel:+32 496 75 42 60",
+  "street": "Ridder van Parijsstraat 43",
+  "city": "2170 Merksem"
 }
