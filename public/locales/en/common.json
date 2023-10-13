@@ -8,6 +8,6 @@
   "street": "Ridder van Parijsstraat 43",
   "city": "2170 Merksem",
   "intro1": "Hello! I'm a passionate Medior Frontend Developer with a Bachelor's Degree in Applied Informatics.",
-  "intro2": "At 25, I've already gained valuable work and academic experience in test-driven, agile website development. I've honed my skills at Oddball / Purple Panda and DXC FDS.",
+  "intro2": "<p>At 25, I've already gained valuable work and academic experience in test-driven, agile website development. I've honed my skills at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
   "intro3": "Now I'm now eager to take on a new challenge as a Frontend Developer, preferably in the Antwerp area."
 }
