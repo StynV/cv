@@ -6,8 +6,12 @@
   grid-template-columns: 1fr;
   gap: calc(#{$spacing-bace} * 1);
 
-  @media (min-width: $break-md) {
+  @media (min-width: $break-lg) {
     padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
+  }
+
+  @media (max-width: $break-lg) {
+    padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4);
   }
 
   .title {

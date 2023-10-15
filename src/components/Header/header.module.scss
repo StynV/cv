@@ -7,8 +7,14 @@
 
     background-color: #E3FDFD;
 
-    @media (min-width: $break-md) {
+    @media (min-width: $break-lg) {
       padding: calc(#{$spacing-bace} * 10) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 5) calc(#{$spacing-bace} * 20);
+    }
+
+    @media (max-width: $break-lg) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .text {
@@ -17,6 +23,11 @@
       flex-direction: column;
 
       gap: calc(#{$spacing-bace} * 2);
+      
+      @media (max-width: $break-lg) {
+        gap: calc(#{$spacing-bace} * 1);
+        margin-bottom: calc(#{$spacing-bace} * 2);
+      }
 
       .function, .mail, .phone, .street, .city {
         font-weight: 100;
@@ -32,5 +43,10 @@
       border-radius: calc(#{$spacing-bace} * 2);
       object-fit: cover;
       object-position: top;
+
+      @media (max-width: $break-lg) {
+        margin-top: calc(#{$spacing-bace} * 2);
+        margin-bottom: calc(#{$spacing-bace} * 2);
+      }
     }
 }
