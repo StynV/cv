@@ -29,8 +29,7 @@ const Header = () => {
                 </div>
 
                 <div>
-                    <h5 className={styles.street}>{t('street')}</h5>
-                    <h6 className={styles.city}>{t('city')}</h6>
+                    <h5 className={styles.city}>{t('city')}</h5>
                 </div>
             </div>
         </header>
