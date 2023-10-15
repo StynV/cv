@@ -16,6 +16,9 @@
 
   .text {
     font-size: $font-size;
-    text-align: justify;
+
+    @media (min-width: $break-lg) {
+        text-align: justify;
+    }
   }
 }
