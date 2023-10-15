@@ -1,0 +1,9 @@
+@import "../../styles/vars.scss";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+  margin-left: calc(#{$spacing-bace} * 20);
+  margin-right: calc(#{$spacing-bace} * 20);
+}
