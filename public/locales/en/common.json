@@ -15,6 +15,7 @@
     "nextjs": "NextJS / React",
     "typescript": "Typescript",
     "jest": "Jest",
+    "grid": "CSS Grid",
     "backend": "Backend",
     "strapi": "Strapi",
     "awsS3": "AWS S3",
