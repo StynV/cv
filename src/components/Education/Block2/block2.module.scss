@@ -6,15 +6,8 @@
     text-align: justify;
 }
 
-.textIntro {
-    p {
-      &:first-of-type {
-          margin-top: calc(#{$spacing-bace} * 2);
-      }
-    }
-}
-
 .linkTitle {
-    margin-top: calc(#{$spacing-bace} * 2);
+    margin-top: calc(#{$spacing-bace} * 1);
     margin-bottom: calc(#{$spacing-bace} * 1);
+    font-weight: 100;
 }

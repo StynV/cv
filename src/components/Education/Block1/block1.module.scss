@@ -6,14 +6,6 @@
     text-align: justify;
 }
 
-.textIntro {
-    p {
-      &:first-of-type {
-          margin-top: calc(#{$spacing-bace} * 2);
-      }
-    }
-}
-
 .linkTitle {
     margin-top: calc(#{$spacing-bace} * 2);
     margin-bottom: calc(#{$spacing-bace} * 1);

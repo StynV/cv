@@ -1,6 +1,7 @@
 import { useTranslation } from 'next-i18next'
 import Block1 from './Block1/Block1'
 import Block2 from './Block2/Block2'
+import Block3 from './Block3/Block3'
 import styles from './work-experience.module.scss'
 
 const WorkExperience = () => {
@@ -12,6 +13,7 @@ const WorkExperience = () => {
 
       <Block1 />
       <Block2 />
+      <Block3 />
     </article>
   )
 }

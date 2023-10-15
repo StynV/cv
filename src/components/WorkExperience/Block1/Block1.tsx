@@ -1,6 +1,6 @@
 import YGWYS from '@/components/YGWYS/YGWYS'
 import { useTranslation } from 'next-i18next'
-import Block from '../Block/Block'
+import Block from '../../Block/Block'
 import styles from './block1.module.scss'
 
 const Block1 = () => {

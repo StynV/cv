@@ -1,0 +1,16 @@
+@import "../../styles/vars.scss";
+
+.education {
+  @extend %page-container;
+
+  grid-template-columns: 1fr;
+  gap: calc(#{$spacing-bace} * 1);
+
+  @media (min-width: $break-md) {
+    padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
+  }
+
+  .title {
+    margin-bottom: calc(#{$spacing-bace} * 2);
+  }
+}

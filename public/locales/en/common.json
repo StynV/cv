@@ -9,7 +9,7 @@
   "city": "2170 Merksem",
   "intro1": "Hello! I'm a passionate Medior Frontend Developer with a Bachelor's Degree in Applied Informatics.",
   "intro2": "<p>At 25, I've already gained valuable work and academic experience in test-driven, agile website development. I've honed my skills at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
-  "intro3": "Now I'm now eager to take on a new challenge as a Frontend Developer, preferably in the Antwerp area.",
+  "intro3": "Now I'm eager to take on a new challenge as a Frontend Developer, preferably in the Antwerp area.",
   "technologies": {
     "frontend": "Frontend",
     "nextjs": "NextJS / React",
@@ -41,7 +41,13 @@
     "sns": "SNS",
     "sqs": "SQS",
     "s3": "S3",
-    "figma": "Figma"
+    "figma": "Figma",
+    "nodejs": "NodeJS",
+    "nestjs": "NodeJS / NestJS",
+    "redux": "Redux",
+    "observable": "Redux-observable",
+    "vue": "Vue",
+    "uml": "UML"
   },
   "workExperience": {
     "title": "Work Experience",
@@ -73,6 +79,29 @@
       "text1": "<p>Here I worked primarily as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>",
       "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website that allows civilians to view nearby construction projects on a map.</p>",
       "technologies": "Used technologies:"
+    },
+    "block3": {
+      "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">icapps</a></h2>",
+      "period": "April 2020 - June 2020",
+      "text": "I concluded my academic journey with an 8-week internship at this software company. Here I worked as a duo on the development of a CMS-based website for a furniture store."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "block1": {
+      "title": "<h2><a href=\"https://www.kdg.be/toegepaste-informatica/\" target=\"_blank\">KDG</a></h2>",
+      "period": "2017 - 2020",
+      "text1": "Bachelor's Degree in Applied Informatics, Karel de Grote-hogeschool",
+      "text2": "Graduated with a focus on Agile software development methodologies, gaining valuable experience in teamwork and professional software development.",
+      "technologies": "Learnt technologies:"
+    },
+    "block2": {
+      "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
+      "text1": "To keep pace with the latest technologies, I have successfully completed three courses on Udemy, earning certificates upon completion.",
+      "technologies": "Featured technologies:",
+      "react": "React (April 2022)",
+      "vue": "Vue (August 2021)",
+      "aws": "AWS (October 2020)"
     }
   }
 }

@@ -5,22 +5,21 @@ import Header from '@/components/Header/Header'
 import Intro from '@/components/Intro/Intro'
 import Meta from '@/components/Meta/Meta'
 import WorkExperience from '@/components/WorkExperience/WorkExperience'
+import Education from '@/components/Education/Education'
 
-const Home = () => {
-  const { t } = useTranslation('common')
-  
-  return (
-    <>
-      <Meta />
+const Home = () => (
+  <>
+    <Meta />
       
-      <main className={styles.main}>
-        <Header />
-        <Intro />
-        <WorkExperience />
-      </main>
-    </>
-  )
-}
+    <main className={styles.main}>
+      <Header />
+      <Intro />
+      <WorkExperience />
+      <Education />
+    </main>
+  </>
+)
+
 
 export async function getStaticProps({ locale }: { locale: string }) {
   return {
