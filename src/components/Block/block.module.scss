@@ -11,6 +11,14 @@
   
   gap: calc(#{$spacing-bace} * 1);
 
+  &.inView {
+    animation: slideIn 0.5s forwards;
+  }
+
+  &.notInView {
+    opacity: 0;
+  }
+
   .squareBlock {
     grid-area: square;
 

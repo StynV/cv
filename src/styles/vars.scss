@@ -6,3 +6,14 @@ $font-size: 18px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
