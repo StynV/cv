@@ -1,4 +1,3 @@
-import YGWYS from '@/components/YGWYS/YGWYS'
 import { useTranslation } from 'next-i18next'
 import Block from '../../Block/Block'
 import styles from './block2.module.scss'

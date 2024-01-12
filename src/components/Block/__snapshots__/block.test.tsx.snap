@@ -3,21 +3,39 @@
 exports[`Block renders a Block 1`] = `
 <div>
   <article
-    class="undefined undefined"
+    class="block notInView"
   >
-    <div>
-      <div />
-      <div>
-        <div />
-        <div />
+    <div
+      class="squareBlock"
+    >
+      <div
+        class="square"
+      />
+      <div
+        class="line"
+      >
+        <div
+          class="squareLeft"
+        />
+        <div
+          class="squareRight"
+        />
       </div>
     </div>
-    <div>
-      <div>
-        <div>
+    <div
+      class="textBlock"
+    >
+      <div
+        class="blockHeader"
+      >
+        <div
+          class="title"
+        >
           title
         </div>
-        <h3>
+        <h3
+          class="period"
+        >
           period
         </h3>
       </div>

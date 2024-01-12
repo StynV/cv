@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders a Footer 1`] = `
+<div>
+  <footer
+    class="footer"
+  >
+    <a
+      href="https://github.com/StynV/cv"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Source code"
+        data-nimg="1"
+        decoding="async"
+        height="80"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2FGithub.png&w=256&q=75"
+        srcset="/_next/image?url=%2Fimages%2FGithub.png&w=96&q=75 1x, /_next/image?url=%2Fimages%2FGithub.png&w=256&q=75 2x"
+        style="color: transparent;"
+        width="80"
+      />
+    </a>
+  </footer>
+</div>
+`;
