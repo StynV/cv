@@ -7,7 +7,11 @@ const Education = () => {
   const { t } = useTranslation('common')
 
   return (
-    <article className={styles.education}>
+    <article
+      className={styles.education}
+      itemScope
+      itemType='https://schema.org/Article'    
+    >
       <h1 className={styles.title}>{t('education.title')}</h1>
 
       <Block1 />

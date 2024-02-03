@@ -7,6 +7,7 @@ const Footer = () => (
             href="https://github.com/StynV/cv"
             target="_blank"
             rel="noreferrer"
+            itemProp='author'
         >
             <Image
                 src={'/images/Github.png'}

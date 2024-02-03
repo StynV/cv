@@ -8,7 +8,11 @@ const WorkExperience = () => {
   const { t } = useTranslation('common')
 
   return (
-    <article className={styles.workExperience}>
+    <article
+      className={styles.workExperience}
+      itemScope
+      itemType='https://schema.org/Article'
+    >
       <h1 className={styles.title}>{t('workExperience.title')}</h1>
 
       <Block1 />
