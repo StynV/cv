@@ -14,14 +14,12 @@ const Block1 = () => {
 
             <h2 className={styles.blockTitle}>{t('workExperience.block1.keyProjects')}</h2>
 
-            <a href="https://thevaluechain.eu/en" target="_blank">
-                <h3 className={styles.linkTitle}>{t('workExperience.block1.tvc.title')}</h3>
-            </a>
+            <h3 className={styles.linkTitle}>{t('workExperience.block1.tvc.title')}</h3>
+            
             <YGWYS html={t('workExperience.block1.tvc.description')} className={styles.text} />
 
-            <a href="https://brightest.be/" target="_blank">
-                <h3 className={styles.linkTitle}>{t('workExperience.block1.brightest.title')}</h3>
-            </a>
+            <h3 className={styles.linkTitle}>{t('workExperience.block1.brightest.title')}</h3>
+            
             <YGWYS html={t('workExperience.block1.brightest.description')} className={styles.text} />
 
             <a href="https://linc.legal/" target="_blank">
