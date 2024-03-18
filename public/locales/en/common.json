@@ -25,7 +25,7 @@
     "sql": "SQL (PostgreSQL)",
     "cloudBuild": "Cloud Build",
     "mail": "Mailgun / EmailJS",
-    "react": "React",
+    "react": "React 18",
     "reactQuery": "React Query",
     "cypress": "Cypress",
     "i18n": "i18n",
