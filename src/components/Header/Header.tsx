@@ -14,17 +14,17 @@ const Header = () => {
                 height={300}
                 className={styles.img}
             />
-            
+
             <div className={styles.text}>
                 <h1 className={styles.title}>{t('name')}</h1>
                 <h2 className={styles.function}>{t('function')}</h2>
 
                 <div>
                     <a href={t('mailValue')}>
-                    <h3 className={styles.mail}>{t('mailLabel')}</h3>
+                        <h3 className={styles.mail}>{t('mailLabel')}</h3>
                     </a>
                     <a href={t('phoneValue')}>
-                    <h4 className={styles.phone}>{t('phoneLabel')}</h4>
+                        <h4 className={styles.phone}>{t('phoneLabel')}</h4>
                     </a>
                 </div>
 

@@ -22,7 +22,7 @@ describe('Block', () => {
 
     expect(container.querySelector('h3')).toHaveClass('period')
     expect(getByText('period', { selector: 'h3' })).toBeTruthy()
-    
+
     expect(getByText('children', { selector: 'p' })).toBeTruthy()
   })
 })

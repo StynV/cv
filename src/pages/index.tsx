@@ -10,7 +10,7 @@ import styles from '@/styles/Home.module.scss'
 const Home = () => (
   <>
     <Meta />
-      
+
     <main className={styles.main}>
       <Header />
       <Intro />
@@ -26,8 +26,8 @@ export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common'])),
-      },
-    }
+    },
+  }
 }
 
 export default Home

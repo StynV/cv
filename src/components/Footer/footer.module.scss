@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   border-top: 1px solid lightgray;
-  
+
   @media (min-width: $break-lg) {
     margin-left: calc(#{$spacing-bace} * 20);
     margin-right: calc(#{$spacing-bace} * 20);

@@ -3,7 +3,7 @@
 .text {
     font-size: $font-size;
     margin-bottom: calc(#{$spacing-bace} * 1);
-    
+
     @media (min-width: $break-lg) {
         text-align: justify;
     }

@@ -3,7 +3,7 @@
 .text {
     font-size: $font-size;
     margin-bottom: calc(#{$spacing-bace} * 1);
-    
+
     @media (min-width: $break-lg) {
         text-align: justify;
     }
@@ -11,9 +11,9 @@
 
 .textIntro {
     p {
-      &:first-of-type {
-          margin-top: calc(#{$spacing-bace} * 2);
-      }
+        &:first-of-type {
+            margin-top: calc(#{$spacing-bace} * 2);
+        }
     }
 }
 
