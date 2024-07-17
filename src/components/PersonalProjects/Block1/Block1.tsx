@@ -16,7 +16,7 @@ const Block1 = () => {
             <p>{t('technologies.tailwind')}</p>
             <p>{t('technologies.graphql')}</p>
             <p>{t('technologies.vercel')}</p>
-            <h3 className={styles.linkTitle}>{t('technologies.backend')}</h3>
+            <h3 className={styles.linkTitle}>{t('technologies.cms')}</h3>
             <p>{t('technologies.datocms')}</p>
         </Block>
     )

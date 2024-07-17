@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <Image
-                src="https://drive.google.com/uc?export=view&id=1FJX2VHTNg6VWSHIs8BmkPcr4ZtSeIOHy"
+                src="https://drive.google.com/uc?export=view&id=1uIzeTvhRc2BX3aZ3zKSbDvKkBHNZkVNn"
                 alt="My image"
                 width={200}
                 height={300}

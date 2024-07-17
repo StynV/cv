@@ -1,15 +1,15 @@
 import { useTranslation } from 'next-i18next'
 import Block from '../../Block/Block'
-import styles from './block3.module.scss'
+import styles from './block-internship.module.scss'
 
-const Block3 = () => {
+const BlockInternship = () => {
     const { t } = useTranslation('common')
 
     return (
-        <Block title={t('workExperience.block3.title')} period={t('workExperience.block3.period')}>
-            <p className={styles.text}>{t('workExperience.block3.text')}</p>
+        <Block title={t('workExperience.blockInternship.title')} period={t('workExperience.blockInternship.period')}>
+            <p className={styles.text}>{t('workExperience.blockInternship.text')}</p>
 
-            <h2>{t('workExperience.block2.technologies')}</h2>
+            <h2>{t('workExperience.blockDXC.technologies')}</h2>
             <h3 className={styles.linkTitle}>{t('technologies.nextjs')}</h3>
             <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
             <p>{t('technologies.typescript')}</p>
@@ -22,4 +22,4 @@ const Block3 = () => {
     )
 }
 
-export default Block3
+export default BlockInternship

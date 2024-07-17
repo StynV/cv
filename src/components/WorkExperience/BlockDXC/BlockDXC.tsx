@@ -1,17 +1,17 @@
 import YGWYS from '@/components/YGWYS/YGWYS'
 import { useTranslation } from 'next-i18next'
 import Block from '../../Block/Block'
-import styles from './block2.module.scss'
+import styles from './block-dxc.module.scss'
 
-const Block2 = () => {
+const BlockDXC = () => {
     const { t } = useTranslation('common')
 
     return (
-        <Block title={t('workExperience.block2.title')} period={t('workExperience.block2.period')}>
-            <YGWYS html={t('workExperience.block2.text1')} className={`${styles.text} ${styles.textIntro}`} />
-            <YGWYS html={t('workExperience.block2.text2')} className={styles.text} />
+        <Block title={t('workExperience.blockDXC.title')} period={t('workExperience.blockDXC.period')}>
+            <YGWYS html={t('workExperience.blockDXC.text1')} className={`${styles.text} ${styles.textIntro}`} />
+            <YGWYS html={t('workExperience.blockDXC.text2')} className={styles.text} />
 
-            <h2>{t('workExperience.block2.technologies')}</h2>
+            <h2>{t('workExperience.blockDXC.technologies')}</h2>
             <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
             <p>{t('technologies.typescript')}</p>
             <p>{t('technologies.reactQuery')}</p>
@@ -21,6 +21,7 @@ const Block2 = () => {
             <p>{t('technologies.context')}</p>
             <p>{t('technologies.webComponents')}</p>
             <p>{t('technologies.storybook')}</p>
+            <p>{t('technologies.sass')}</p>
 
             <h3 className={styles.linkTitle}>{t('technologies.spring')}</h3>
             <p>{t('technologies.rest')}</p>
@@ -39,4 +40,4 @@ const Block2 = () => {
     )
 }
 
-export default Block2
+export default BlockDXC
