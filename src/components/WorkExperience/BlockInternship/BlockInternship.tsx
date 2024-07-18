@@ -13,6 +13,7 @@ const BlockInternship = () => {
             <h3 className={styles.linkTitle}>{t('technologies.nextjs')}</h3>
             <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
             <p>{t('technologies.typescript')}</p>
+            <p>{t('technologies.sass')}</p>
             <p>{t('technologies.jest')}</p>
             <p>{t('technologies.i18n')}</p>
             <p>{t('technologies.redux')}</p>

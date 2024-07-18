@@ -8,7 +8,7 @@
   "city": "Merksem",
   "pdf": "PDF version",
   "intro1": "Hi! I'm a passionate Medior Frontend Developer with a Bachelor's Degree in Applied Informatics.",
-  "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at<a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
+  "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
   "intro3": "I have around 3.5 years of working experience.",
   "technologies": {
     "title": "Featured technologies",
@@ -60,6 +60,7 @@
     "datocms": "DatoCMS",
     "graphql": "GraphQL",
     "tailwind": "Tailwind",
+    "tailwindVA": "Tailwind Variants",
     "vercel": "Vercel"
   },
   "workExperience": {
@@ -67,11 +68,23 @@
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - August 2024",
-      "text1": "<p>After 6 months of searching, I was able to start working again at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend React developer.</p>",
-      "text2": "However, due to financial reasons this turned out not to be a good match between the company and me after all.",
+      "text1": "<p>My latest working experience is with <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend React developer.</p>",
+      "text2": "However, this was shortlived due to this job not being a complete match after all.",
       "beat": {
-        "title": "Be•at",
-        "description": "<p>For about a month I was able to work at a project for <a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a>, the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. Here, I worked on a new project which I had to leave due to different project needs.</p>"
+        "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
+        "description": "<p>My first project was at <a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a>, the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. I worked for a month on a new project which is still in development.</p>"
+      },
+        "beamery": {
+        "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
+        "description": "<p>I worked in a small team for the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website. This will be released soon.</p>"
+      },
+        "troubleshootingPage": {
+        "title": "POC troubleshooting page",
+        "description": "I developed an internal page for the company website. This page is meant for customers who are experiencing issues with the websites. On this page we display systems specs etc to make fiding the issue easier."
+      },
+        "poc": {
+        "title": "POC",
+        "description": "During my time at 2.O I also co-developed 2 proof of concept projects for potential projects."
       }
     },
     "blockOddball": {
@@ -131,7 +144,7 @@
     "title": "Personal projects",
     "block1": {
       "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
-      "text": "Galerij Artisjok from Lier asked me to create a website for their newest magazine. I volunteered to develop this in my free time using only non-paid services. It includes a frontend which can get accessed using a CMS, a form for feedback, a scheme with randomized tiles and a contact page.",
+      "text": "Galerij Artisjok from Lier asked me to create a website for their newest magazine. I volunteered to develop this in my free time using only non-paid services. It includes a frontend which can get accessed using a CMS, a form for feedback, a grid with randomized tiles and a contact page.",
       "technologies": "Featured technologies:"
     }
   }
