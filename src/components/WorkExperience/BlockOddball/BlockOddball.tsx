@@ -1,10 +1,10 @@
 import YGWYS from '@/components/YGWYS/YGWYS'
-import { useTranslation } from 'next-i18next'
 import Block from '../../Block/Block'
 import styles from './block-oddball.module.scss'
+import { useTranslation } from '@app/i18n'
 
-const BlockOddball = () => {
-    const { t } = useTranslation('common')
+const BlockOddball = async () => {
+    const { t } = await useTranslation('common')
 
     return (
         <Block title={t('workExperience.blockOddball.title')} period={t('workExperience.blockOddball.period')}>

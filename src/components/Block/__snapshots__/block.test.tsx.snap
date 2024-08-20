@@ -4,7 +4,21 @@ exports[`Block renders a Block 1`] = `
 <div>
   <article
     class="block notInView"
+    itemscope=""
+    itemtype="https://schema.org/Article"
   >
+    <meta
+      content="2023-10-15"
+      itemprop="datePublished"
+    />
+    <meta
+      content="2024-02-03"
+      itemprop="dateModified"
+    />
+    <meta
+      content="https://www.linkedin.com/in/styn-vercauteren-96918018b/"
+      itemprop="publisher"
+    />
     <div
       class="squareBlock"
     >
@@ -29,7 +43,7 @@ exports[`Block renders a Block 1`] = `
         class="blockHeader"
       >
         <div
-          class="title"
+          class="title ygwys"
         >
           title
         </div>

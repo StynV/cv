@@ -1,9 +1,9 @@
-import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
+import { useTranslation } from '@app/i18n'
 import styles from './header.module.scss'
 
-const Header = () => {
-    const { t } = useTranslation('common')
+const Header = async () => {
+    const { t } = await useTranslation('common')
 
     return (
         <header className={styles.header}>

@@ -1,10 +1,10 @@
 import YGWYS from '@/components/YGWYS/YGWYS'
-import { useTranslation } from 'next-i18next'
 import Block from '../../Block/Block'
 import styles from './block-dxc.module.scss'
+import { useTranslation } from '@app/i18n'
 
-const BlockDXC = () => {
-    const { t } = useTranslation('common')
+const BlockDXC = async () => {
+    const { t } = await useTranslation('common')
 
     return (
         <Block title={t('workExperience.blockDXC.title')} period={t('workExperience.blockDXC.period')}>

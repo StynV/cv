@@ -1,0 +1,32 @@
+import { dir } from 'i18next'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import { languages } from '../i18n/settings'
+import './globals.css'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export async function generateStaticParams() {
+  return languages.map((lng) => ({ lng }))
+}
+
+export const metadata: Metadata = {
+  title: 'CV - Styn Vercauteren',
+  description: 'CV from Styn Vercauteren',
+}
+
+export default function RootLayout({
+  children,
+  params: {
+    lng
+  }
+}: Readonly<{
+  children: React.ReactNode,
+  params: any
+}>) {
+  return (
+    <html lang="en" dir={dir(lng)}>
+      <body className={inter.className}>{children}</body>
+    </html>
+  )
+}

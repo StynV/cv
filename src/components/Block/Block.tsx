@@ -1,3 +1,5 @@
+'use client'
+
 import styles from './block.module.scss'
 import { ReactNode } from 'react'
 import YGWYS from '@/components/YGWYS/YGWYS'

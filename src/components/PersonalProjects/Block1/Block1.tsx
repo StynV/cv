@@ -1,13 +1,15 @@
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from '@app/i18n'
 import Block from '../../Block/Block'
 import styles from './block1.module.scss'
+import YGWYS from '@/components/YGWYS/YGWYS'
 
-const Block1 = () => {
-    const { t } = useTranslation('common')
+const Block1 = async () => {
+    const { t } = await useTranslation('common')
 
     return (
         <Block title={t('personalProjects.block1.title')}>
             <p className={styles.text}>{t('personalProjects.block1.text')}</p>
+            <YGWYS html={t('personalProjects.block1.text2')} className={styles.text} />
 
             <h2>{t('personalProjects.block1.technologies')}</h2>
             <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>

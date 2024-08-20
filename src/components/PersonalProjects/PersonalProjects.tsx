@@ -1,9 +1,9 @@
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from '@app/i18n'
 import Block1 from './Block1/Block1'
 import styles from './personalProjects.module.scss'
 
-const PersonalProjects = () => {
-  const { t } = useTranslation('common')
+const PersonalProjects = async () => {
+  const { t } = await useTranslation('common')
 
   return (
     <article

@@ -1,10 +1,10 @@
 import YGWYS from '@/components/YGWYS/YGWYS'
-import { useTranslation } from 'next-i18next'
 import Block from '../../Block/Block'
 import styles from './block-two-point-o.module.scss'
+import { useTranslation } from '@app/i18n'
 
-const BlockTwoPointO = () => {
-    const { t } = useTranslation('common')
+const BlockTwoPointO = async () => {
+    const { t } = await useTranslation('common')
 
     return (
         <Block title={t('workExperience.blockTwoPointO.title')} period={t('workExperience.blockTwoPointO.period')}>

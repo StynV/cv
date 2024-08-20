@@ -1,12 +1,12 @@
-import { useTranslation } from 'next-i18next'
 import styles from './work-experience.module.scss'
 import BlockOddball from './BlockOddball/BlockOddball'
 import BlockDXC from './BlockDXC/BlockDXC'
 import BlockInternship from './BlockInternship/BlockInternship'
 import BlockTwoPointO from './BlockTwoPointO/BlockTwoPointO'
+import { useTranslation } from '@app/i18n'
 
-const WorkExperience = () => {
-  const { t } = useTranslation('common')
+const WorkExperience = async () => {
+  const { t } = await useTranslation('common')
 
   return (
     <article

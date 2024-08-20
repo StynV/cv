@@ -1,9 +1,9 @@
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from '@app/i18n'
 import Block from '../../Block/Block'
 import styles from './block1.module.scss'
 
-const Block1 = () => {
-    const { t } = useTranslation('common')
+const Block1 = async () => {
+    const { t } = await useTranslation('common')
 
     return (
         <Block title={t('education.block1.title')} period={t('education.block1.period')}>
