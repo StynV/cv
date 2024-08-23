@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
 
-    gap: calc(#{$spacing-bace} * 2);
+    gap: calc(#{$spacing-bace} * 1);
 
     @media (max-width: $break-lg) {
       gap: calc(#{$spacing-bace} * 1);

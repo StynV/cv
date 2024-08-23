@@ -26,6 +26,20 @@ const Header = async () => {
                     <a href={t('phoneValue')}>
                         <h4 className={styles.phone}>{t('phoneLabel')}</h4>
                     </a>
+                    <a
+                        href="https://www.linkedin.com/in/styn-vercauteren-96918018b/"
+                        target="_blank"
+                        rel="noreferrer"
+                        itemProp='author'
+                    >
+                        <Image
+                            src={'/images/LinkedIn_logo.svg'}
+                            alt={'Source code'}
+                            width={100}
+                            height={70}
+                            className={styles.linkedinLogo}
+                        />
+                    </a>
                 </div>
 
                 <div>
