@@ -1,13 +1,14 @@
 @import "../../styles/vars.scss";
 
 .header {
-  @extend %page-container;
-
-  grid-template-areas: 'text text text text text text text text text text img img';
 
   background-color: #E3FDFD;
 
   @media (min-width: $break-lg) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: calc(#{$spacing-bace} * 10);
     padding: calc(#{$spacing-bace} * 10) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 5) calc(#{$spacing-bace} * 20);
   }
 
