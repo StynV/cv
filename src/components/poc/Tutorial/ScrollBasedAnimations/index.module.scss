@@ -1,0 +1,20 @@
+.main {
+    .motionDiv {
+        //Scale from left side of page
+        transform-origin: left;
+        position: sticky;
+        top: 0;
+        height: 20px;
+        margin-top: 1rem;
+    }
+
+    .innerDiv {
+        padding: 1.2rem;
+        max-width: 700px;
+        margin: auto;
+
+        p {
+            margin-bottom: 1rem;
+        }
+    }    
+}

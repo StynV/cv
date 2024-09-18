@@ -1,0 +1,14 @@
+.main {
+    height: 150vh;
+}
+
+.innerDiv {
+    // height of the screen
+    height: 100vh;
+    background-color: black;
+}
+
+.secondDiv {
+    height: 100vh;
+    transition: 1s background;
+}

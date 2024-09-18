@@ -1,8 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import styles from './index.module.scss'
 import Backdrop from '../Backdrop'
+import styles from './index.module.scss'
 
 const Modal = ({ handleClose, text }: { handleClose: React.MouseEventHandler<HTMLDivElement | HTMLButtonElement>, text: string,  }) => {
     const dropIn = {
