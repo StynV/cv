@@ -1,7 +1,7 @@
 @import "../../styles/vars.scss";
 
 .header {
-  background-color: #E3FDFD;
+  background-color: $header-background-color;
 
   @media (min-width: $break-lg) {
     display: flex;

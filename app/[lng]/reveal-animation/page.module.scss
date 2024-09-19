@@ -1,0 +1,14 @@
+@import "../../../src/styles/vars.scss";
+
+.main {
+    @extend %page-container;
+    grid-template-columns: 1fr;
+
+    @media (min-width: $break-lg) {
+        padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
+    }
+    
+    @media (max-width: $break-lg) {
+        padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4);
+    }
+}
