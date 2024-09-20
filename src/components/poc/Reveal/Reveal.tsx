@@ -1,8 +1,8 @@
 'use client'
 
 import { motion, useAnimation, useInView } from 'framer-motion'
-import styles from './index.module.scss'
 import { useEffect, useRef } from 'react'
+import styles from './index.module.scss'
 
 interface Props {
     children: JSX.Element,
