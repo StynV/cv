@@ -2,6 +2,7 @@ import { dir } from 'i18next'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { languages } from '../i18n/settings'
+import { Providers } from '@/components/poc/Redux/provider'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -26,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" dir={dir(lng)}>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Providers>
+          {children}
+        </Providers>
+      </body>
     </html>
   )
 }
