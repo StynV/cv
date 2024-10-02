@@ -3,7 +3,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 import styles from './index.module.scss'
 import { AppDispatch, RootState } from './store'
-import { addTodo } from './todoSlice'
+import { addTodo, deleteTodo } from './todoSlice'
 
 const ReduxDemo = () => {
     const tasks = useSelector((state: RootState) => state.todo.tasks)
@@ -23,29 +23,51 @@ const ReduxDemo = () => {
         )
     }
     
+    const handleButtonClick = async (id: number) => {
+        dispatch(
+            deleteTodo(
+                {
+                    id: id,
+                }
+            )
+        )
+    }
+
     return (
         <div
             className={styles.main}
         >
-            <div className={styles.tasks}>
-                {tasks.map(task => {
-                    console.log(task)
-                    return (
-                        <p key={task.id}>{task.text}</p>
-                    )
-                })}
-            </div>
-
-            <form action={formAction}>
+            <form
+                action={formAction}
+                className={styles.form}
+            >
                 <label>Add task</label>
                 <input
                     type='text'
                     name="text"
                     required
+                    className={styles.input}
                 />
 
-                <button type='submit'>Add</button>
+                <button
+                    type='submit'
+                    className={styles.button}
+                >Add</button>
             </form>
+
+            <div className={styles.tasks}>
+                {tasks.map(task =>  (
+                    <div key={task.id} className={styles.item}>
+                        <p>{task.text}</p>
+                        <button
+                            onClick={() => handleButtonClick(task.id)}
+                            className={styles.removeButton}
+                        >
+                            X
+                        </button>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

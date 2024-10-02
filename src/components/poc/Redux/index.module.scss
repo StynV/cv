@@ -5,4 +5,40 @@
         display: flex;
         flex-direction: column;
     }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+
+        .input {
+            padding: 0.5rem;
+            border-radius: 5%;
+            margin-bottom: 1rem;
+        }
+
+        .button {
+            background-color: blue;
+            color: white;
+            border: 1px solid white;
+            padding: 0.5rem;
+            border-radius: 5%;
+        }
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .removeButton {
+            margin-left: auto;
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 1rem;
+            cursor: pointer;
+        }
+    }
 }
