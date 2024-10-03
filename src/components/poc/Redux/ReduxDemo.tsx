@@ -1,9 +1,9 @@
 'use client'
 
 import { useDispatch, useSelector } from 'react-redux'
-import styles from './index.module.scss'
 import { AppDispatch, RootState } from './store'
 import { addTodo, deleteTodo } from './todoSlice'
+import styles from './index.module.scss'
 
 const ReduxDemo = () => {
     const tasks = useSelector((state: RootState) => state.todo.tasks)
