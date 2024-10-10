@@ -10,8 +10,9 @@ const BlockInternship = async () => {
             <p className={styles.text}>{t('workExperience.blockInternship.text')}</p>
 
             <h2>{t('workExperience.blockDXC.technologies')}</h2>
+            <h3 className={styles.linkTitle}>{t('technologies.nestjs')}</h3>
             <h3 className={styles.linkTitle}>{t('technologies.nextjs')}</h3>
-            <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
+            <p>{t('technologies.react')}</p>
             <p>{t('technologies.typescript')}</p>
             <p>{t('technologies.sass')}</p>
             <p>{t('technologies.jest')}</p>
