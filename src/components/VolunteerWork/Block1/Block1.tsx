@@ -7,11 +7,11 @@ const Block1 = async () => {
     const { t } = await useTranslation('common')
 
     return (
-        <Block title={t('personalProjects.block1.title')}>
-            <p className={styles.text}>{t('personalProjects.block1.text')}</p>
-            <YGWYS html={t('personalProjects.block1.text2')} className={styles.text} />
+        <Block title={t('volunteerWork.block1.title')}>
+            <p className={styles.text}>{t('volunteerWork.block1.text')}</p>
+            <YGWYS html={t('volunteerWork.block1.text2')} className={styles.text} />
 
-            <h2>{t('personalProjects.block1.technologies')}</h2>
+            <h2>{t('volunteerWork.block1.technologies')}</h2>
             <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
             <p>{t('technologies.nextjs')}</p>
             <p>{t('technologies.typescript')}</p>

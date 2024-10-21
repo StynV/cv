@@ -1,0 +1,15 @@
+@import "../../../styles/vars.scss";
+
+.text {
+    font-size: $font-size;
+    margin-bottom: calc(#{$spacing-bace} * 1);
+
+    @media (min-width: $break-lg) {
+        text-align: justify;
+    }
+}
+
+.linkTitle {
+    margin-top: calc(#{$spacing-bace} * 2);
+    margin-bottom: calc(#{$spacing-bace} * 1);
+}

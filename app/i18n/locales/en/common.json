@@ -64,7 +64,7 @@
     "vercel": "Vercel"
   },
   "workExperience": {
-    "title": "Work Experience",
+    "title": "Work experience",
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - August 2024",
@@ -140,12 +140,18 @@
       "aws": "AWS (October 2020)"
     }
   },
-  "personalProjects": {
-    "title": "Personal projects",
+  "volunteerWork": {
+    "title": "Volunteer work",
     "block1": {
       "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
       "text": "Galerij Artisjok from Lier asked me to create a website for their newest magazine. I volunteered to develop this in my free time using only non-paid services. It includes a frontend which can get accessed using a CMS, a form for feedback, a grid with randomized tiles and a contact page.",
       "text2": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a></p>",
+      "technologies": "Featured technologies:"
+    },
+    "block2": {
+      "title": "<h2><a href=\"https://www.react.brussels/\" target=\"_blank\">React Brussels</a></h2>",
+      "text": "I got the chance of volunteering at React Brussels. Not only did this gave me the opportunity to meet loads of skilled people, I was also able to follow some very interesting talks and workshops.",
+      "text2": "<p>I mostly learned about the framework <a href=\"https://astro.build/\" target=\"_blank\">Astro</a>, and how to use <a href=\"https://www.youtube.com/watch?v=y5c1Y_EQuvI&ab_channel=CallstackEngineers\" target=\"_blank\">server components for forms</a> which was added in React 19, but also saw talks about accessability, AI and view transitions.</p>",
       "technologies": "Featured technologies:"
     }
   }
