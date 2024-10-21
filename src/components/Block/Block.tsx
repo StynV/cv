@@ -1,14 +1,14 @@
 'use client'
 
-import styles from './block.module.scss'
 import { ReactNode } from 'react'
 import YGWYS from '@/components/YGWYS/YGWYS'
 import { useInView } from 'react-intersection-observer'
+import styles from './block.module.scss'
 
 const Block = ({ title, period, children }: { title: string, period?: string, children: ReactNode }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.5, // Adjust as needed
+    threshold: 0, // Adjust as needed
   })
 
   return (
