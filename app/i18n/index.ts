@@ -8,9 +8,14 @@ const initI18next = async (lng: string | undefined, ns: string | undefined) => {
 
   await i18nInstance
     .use(initReactI18next)
-    .use(resourcesToBackend((language: any, namespace: any) => import(`./locales/${language}/${namespace}.json`)))
+    .use(
+      resourcesToBackend(
+        (language: any, namespace: any) =>
+          import(`./locales/${language}/${namespace}.json`)
+      )
+    )
     .init(getOptions(lng, ns))
-    
+
   return i18nInstance
 }
 
@@ -18,6 +23,6 @@ export async function useTranslation(lng: string) {
   const i18nextInstance = await initI18next(lng, 'common')
   return {
     t: i18nextInstance.getFixedT(lng, 'common'),
-    i18n: i18nextInstance
+    i18n: i18nextInstance,
   }
 }

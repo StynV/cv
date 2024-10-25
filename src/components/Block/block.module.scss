@@ -3,10 +3,10 @@
 .block {
   @extend %page-container;
 
-  grid-template-areas: 'square square textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock';
+  grid-template-areas: "square square textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock";
 
   @media (max-width: $break-lg) {
-    grid-template-areas: 'square square textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock';
+    grid-template-areas: "square square textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock textBlock";
   }
 
   gap: calc(#{$spacing-bace} * 1);
@@ -36,7 +36,7 @@
         min-height: 2rem;
       }
 
-      background-color: #E3FDFD;
+      background-color: #e3fdfd;
       transform: rotate(45deg);
     }
 
@@ -48,7 +48,6 @@
         height: 100%;
       }
     }
-
   }
 
   .textBlock {

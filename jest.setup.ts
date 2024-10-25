@@ -1,2 +1,2 @@
-import '@testing-library/jest-dom'
-import 'intersection-observer'
+import "@testing-library/jest-dom";
+import "intersection-observer";

@@ -3,7 +3,11 @@ import Block from './Block'
 
 describe('Block', () => {
   it('renders a Block', () => {
-    const { container, getByText } = render(<Block title='title' period='period'><p>children</p></Block>)
+    const { container, getByText } = render(
+      <Block title="title" period="period">
+        <p>children</p>
+      </Block>
+    )
 
     expect(container).toMatchSnapshot()
 

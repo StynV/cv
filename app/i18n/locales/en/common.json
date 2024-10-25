@@ -74,15 +74,15 @@
         "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
         "description": "<p>My first project was at <a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a>, the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. I worked for a month on a new project which is still in development.</p>"
       },
-        "beamery": {
+      "beamery": {
         "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
         "description": "<p>I worked in a small team for the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website. This will be released soon.</p>"
       },
-        "troubleshootingPage": {
+      "troubleshootingPage": {
         "title": "POC troubleshooting page",
         "description": "I developed an internal page for the company website. This page is meant for customers who are experiencing issues with the websites. On this page we display systems specs etc to make fiding the issue easier."
       },
-        "poc": {
+      "poc": {
         "title": "POC",
         "description": "During my time at 2.O I also co-developed 2 proof of concept projects for potential projects."
       }

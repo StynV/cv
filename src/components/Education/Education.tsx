@@ -10,7 +10,7 @@ const Education = async () => {
     <article
       className={styles.education}
       itemScope
-      itemType='https://schema.org/Article'
+      itemType="https://schema.org/Article"
     >
       <h1 className={styles.title}>{t('education.title')}</h1>
 

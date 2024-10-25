@@ -7,15 +7,15 @@ import ViewBasedAnimations from '@/components/poc/Tutorial/ViewBasedAnimations/V
 import ScrollBasedAnimations from '@/components/poc/Tutorial/ScrollBasedAnimations/ScrollBasedAnimations'
 
 export default function AnimationsPOC() {
-    return (
-        <main className={styles.main}>
-            <Animations />
+  return (
+    <main className={styles.main}>
+      <Animations />
 
-            {/* <BasicsOfMotion /> */}
-            {/* <Gestures /> */}
-            {/* <AnimationControls /> */}
-            {/* <ViewBasedAnimations /> */}
-            <ScrollBasedAnimations />
-        </main>
-    )
+      {/* <BasicsOfMotion /> */}
+      {/* <Gestures /> */}
+      {/* <AnimationControls /> */}
+      {/* <ViewBasedAnimations /> */}
+      <ScrollBasedAnimations />
+    </main>
+  )
 }

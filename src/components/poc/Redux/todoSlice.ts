@@ -1,29 +1,29 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from '@reduxjs/toolkit'
 
 type Todo = {
-    id: number,
-    text: string
+  id: number
+  text: string
 }
 
 type InitialStateProps = {
-    tasks: Array<Todo>
+  tasks: Array<Todo>
 }
 
 const initialState: InitialStateProps = {
-    tasks: []
+  tasks: [],
 }
 
 const todoSlice = createSlice({
-    name: "todo",
-    initialState,
-    reducers: {
-        addTodo: (state, action) => {
-            state.tasks.push(action.payload)
-        },
-        deleteTodo: (state, action) => {
-            state.tasks = state.tasks.filter((task) => task.id !== action.payload.id)
-        }
-    }
+  name: 'todo',
+  initialState,
+  reducers: {
+    addTodo: (state, action) => {
+      state.tasks.push(action.payload)
+    },
+    deleteTodo: (state, action) => {
+      state.tasks = state.tasks.filter(task => task.id !== action.payload.id)
+    },
+  },
 })
 
 export const { addTodo, deleteTodo } = todoSlice.actions

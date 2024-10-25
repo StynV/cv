@@ -1,23 +1,23 @@
 @import "../../../styles/vars.scss";
 
 .main {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 
-    .slidingAnimation {
-        width: 100%;
-        position: absolute;
-        top: 4px;
-        bottom: 4px;
-        left: 0px;
-        right: 0px;
-        background-color: $header-background-color-darker;
-        opacity: 50%;
-        z-index: 20;
-        color: transparent;
+  .slidingAnimation {
+    width: 100%;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 0px;
+    right: 0px;
+    background-color: $header-background-color-darker;
+    opacity: 50%;
+    z-index: 20;
+    color: transparent;
 
-        a {
-            visibility: hidden;
-        }
+    a {
+      visibility: hidden;
     }
+  }
 }

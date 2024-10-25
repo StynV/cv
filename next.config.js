@@ -7,8 +7,8 @@ const nextConfig = {
       {
         hostname: 'drive.google.com',
       },
-    ]
-  }
+    ],
+  },
 }
 
 module.exports = nextConfig

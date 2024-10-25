@@ -12,7 +12,7 @@ const Intro = async () => {
     <article
       className={styles.intro}
       itemScope
-      itemType='https://schema.org/Article'
+      itemType="https://schema.org/Article"
     >
       <p className={styles.text}>{t('intro1')}</p>
       <YGWYS html={html} className={styles.text} />

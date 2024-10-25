@@ -8,7 +8,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export async function generateStaticParams() {
-  return languages.map((lng) => ({ lng }))
+  return languages.map(lng => ({ lng }))
 }
 
 export const metadata: Metadata = {
@@ -18,19 +18,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  params: {
-    lng
-  }
+  params: { lng },
 }: Readonly<{
-  children: React.ReactNode,
+  children: React.ReactNode
   params: any
 }>) {
   return (
     <html lang="en" dir={dir(lng)}>
       <body className={inter.className}>
-        <Providers>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

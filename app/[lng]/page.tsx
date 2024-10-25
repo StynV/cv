@@ -6,8 +6,11 @@ import Footer from '@/components/Footer/Footer'
 import VolunteerWork from '@/components/VolunteerWork/VolunteerWork'
 import styles from './page.module.css'
 
-export default async function Home({ params: { lng } }: {params: { lng: string } }) {
-
+export default async function Home({
+  params: { lng },
+}: {
+  params: { lng: string }
+}) {
   return (
     <main className={styles.main}>
       <Header />

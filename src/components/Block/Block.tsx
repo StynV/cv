@@ -5,7 +5,15 @@ import YGWYS from '@/components/YGWYS/YGWYS'
 import { useInView } from 'react-intersection-observer'
 import styles from './block.module.scss'
 
-const Block = ({ title, period, children }: { title: string, period?: string, children: ReactNode }) => {
+const Block = ({
+  title,
+  period,
+  children,
+}: {
+  title: string
+  period?: string
+  children: ReactNode
+}) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0, // Adjust as needed
@@ -16,12 +24,15 @@ const Block = ({ title, period, children }: { title: string, period?: string, ch
       className={`${styles.block} ${inView ? styles.inView : styles.notInView}`}
       ref={ref}
       itemScope
-      itemType='https://schema.org/Article'
+      itemType="https://schema.org/Article"
     >
       <>
-        <meta itemProp='datePublished' content='2023-10-15' />
-        <meta itemProp='dateModified' content='2024-02-03' />
-        <meta itemProp='publisher' content='https://www.linkedin.com/in/styn-vercauteren-96918018b/' />
+        <meta itemProp="datePublished" content="2023-10-15" />
+        <meta itemProp="dateModified" content="2024-02-03" />
+        <meta
+          itemProp="publisher"
+          content="https://www.linkedin.com/in/styn-vercauteren-96918018b/"
+        />
 
         <div className={styles.squareBlock}>
           <div className={styles.square}></div>

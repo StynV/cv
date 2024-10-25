@@ -1,39 +1,39 @@
 .main {
-    margin-top: 1rem;
+  margin-top: 1rem;
 
-    form {
-        margin-bottom: 3rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
+  form {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 
-        input, select {
-            padding: 5px;
-            display: flex;
-            flex-direction: column;
-        }
-
-
-        label {
-            p {
-                margin-bottom: 5px;
-            }
-        }
-
-        button {
-            background-color: blue;
-            color: white;
-            padding: 5px;
-            border: none;
-            border-radius: 1rem;
-        }
+    input,
+    select {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
     }
 
-    table {
-        margin-top: 3rem;
+    label {
+      p {
+        margin-bottom: 5px;
+      }
     }
 
-    .tableName {
-        padding-right: 5px;
+    button {
+      background-color: blue;
+      color: white;
+      padding: 5px;
+      border: none;
+      border-radius: 1rem;
     }
+  }
+
+  table {
+    margin-top: 3rem;
+  }
+
+  .tableName {
+    padding-right: 5px;
+  }
 }

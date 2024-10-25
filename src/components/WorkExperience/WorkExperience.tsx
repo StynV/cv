@@ -12,10 +12,10 @@ const WorkExperience = async () => {
     <article
       className={styles.workExperience}
       itemScope
-      itemType='https://schema.org/Article'
+      itemType="https://schema.org/Article"
     >
       <h1 className={styles.title}>{t('workExperience.title')}</h1>
-      
+
       <BlockTwoPointO />
       <BlockOddball />
       <BlockDXC />

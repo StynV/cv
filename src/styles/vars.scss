@@ -1,8 +1,8 @@
 $break-lg: 1024px;
-$spacing-bace: .8rem;
+$spacing-bace: 0.8rem;
 $font-size: 18px;
-$header-background-color: #E3FDFD;
-$header-background-color-darker: #C1E7E7;
+$header-background-color: #e3fdfd;
+$header-background-color-darker: #c1e7e7;
 
 %page-container {
   display: grid;
@@ -26,10 +26,12 @@ $header-background-color-darker: #C1E7E7;
   grid-template-columns: 1fr;
 
   @media (min-width: $break-lg) {
-      padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
+    padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20)
+      calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
   }
-  
+
   @media (max-width: $break-lg) {
-      padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4) calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4);
+    padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4)
+      calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 4);
   }
 }

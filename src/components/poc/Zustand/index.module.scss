@@ -1,43 +1,43 @@
 .main {
+  display: flex;
+  flex-direction: column;
+
+  .counter {
+    margin-bottom: 1rem;
+
+    .items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      margin-top: 0.5rem;
+    }
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10%;
+    border: none;
+  }
+
+  .cart {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 
-    .counter {
-        margin-bottom: 1rem;
-
-        .items {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-
-            margin-top: 0.5rem;         
-        }
-    }
-
-    button {
-        background-color: blue;
-        color: white;
-        padding: 0.5rem;
-        border-radius: 10%;
-        border: none;
-    }
-
-    .cart {
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      .item {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 0.5rem;
-
-        .items {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-            .item {
-                display: flex;
-                flex-direction: row;
-                gap: 0.5rem;
-            }
-        }
+      }
     }
+  }
 }

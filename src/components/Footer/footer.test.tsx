@@ -9,7 +9,9 @@ describe('Footer', () => {
 
     expect(container.querySelector('footer')).toHaveClass('footer')
 
-    expect(container.querySelector('a[href="https://github.com/StynV/cv"]')).toBeVisible()
+    expect(
+      container.querySelector('a[href="https://github.com/StynV/cv"]')
+    ).toBeVisible()
     expect(container.querySelector('img')).toBeVisible()
   })
 })
