@@ -9,7 +9,7 @@ const Header = async () => {
   return (
     <header className={styles.header}>
       <Image
-        src="https://drive.google.com/uc?export=view&id=1uIzeTvhRc2BX3aZ3zKSbDvKkBHNZkVNn"
+        src="https://drive.google.com/uc?export=view&id=1BPxIJsPL8Fbdo9bPdgBIxE7DtNlEA0e_"
         alt="My image"
         width={200}
         height={300}
