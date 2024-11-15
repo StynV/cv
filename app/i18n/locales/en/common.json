@@ -7,7 +7,7 @@
   "phoneValue": "tel:+32 496 75 42 60",
   "city": "Merksem",
   "pdf": "PDF version",
-  "intro1": "Hi! I'm a passionate medior frontend developer with a bachelor's degree in Applied Informatics.",
+  "intro1": "Hi! I'm a medior frontend with a bachelor's degree in Applied Informatics. I'm mainly focused on React, but have also worked with Java and NodeJS before.",
   "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
   "intro3": "I have around 3.5 years of working experience.",
   "technologies": {
@@ -90,21 +90,21 @@
     "blockOddball": {
       "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
       "period": "January 2023 - November 2023",
-      "text1": "<p>I worked as a dedicated Frontend Developer with a proven track record at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a>, which later merged with <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a>.</p>",
-      "text2": "Initially part of a four-member team, I eventually took on the responsibility of leading the team single-handedly. Specializing in React development, I have also gained experience in deploying websites to Google Cloud.",
-      "text3": "I am seeking opportunities to leverage my technical skills and leadership experience in a challenging new role.",
+      "text1": "<p>I worked as a Frontend Developer at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a>, which later merged with <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a>.</p>",
+      "text2": "Initially part of a 4-member team, I eventually took on the responsibility of leading the team single-handedly. Specializing in React development, I have also gained experience in deploying websites to Google Cloud.",
+      "text3": "I co-developed these three websites from scratch until finish.",
       "keyProjects": "Key Projects",
       "tvc": {
         "title": "TheValueChain",
-        "description": "<p>I co-developed the website for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>'s largest company. Responsibilities included creating the website itself using components, bug fixes and handling change requests post-launch. After I left the company, this website has been discontinued.</p>"
+        "description": "<p>Our first website was for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>'s largest company, TheValueChain. Our responsibilities included creating the website's components, handling bug fixes and change requests post-launch.</p>"
       },
       "brightest": {
         "title": "Brightest",
-        "description": "<p>Our team also developed a website for Gumption's second largest company. The project involved similar tasks and technologies as TheValueChain, including post-launch maintenance. After I left the company, this website has been discontinued.</p>"
+        "description": "<p>Our team also developed a website for Gumption's second largest company. The project involved similar tasks and technologies as TheValueChain.</p>"
       },
       "linc": {
         "title": "Linc.legal",
-        "description": "I collaborated on the creation of a website for a law firm based in Antwerp, using the same technology stack as the previous projects."
+        "description": "Our last creation was a website for this law firm based in Antwerp, using the same technology stack as the previous projects."
       },
       "technologies": "All of these websites use these technologies:",
       "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
@@ -112,14 +112,16 @@
     "blockDXC": {
       "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
       "period": "September 2020 - December 2022",
-      "text1": "<p>Here I worked primarily as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>",
+      "text1": "<p>My first paid working experience was as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>",
       "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website that allows civilians to view nearby construction projects on a map.</p>",
+      "text3": "<p>Initially I worked on the backend in a +5 team, but eventually I focused on the frontend together with a senior developer.</p>",
       "technologies": "Used technologies:"
     },
     "blockInternship": {
       "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Internship icapps</a></h2>",
       "period": "April 2020 - June 2020",
-      "text": "I concluded my academic journey with an 8-week internship at this software company. Here I worked as a duo on the development of a CMS-based website for a furniture store."
+      "text": "I concluded my academic journey with an 8-week internship at this software company. Here I worked as a duo on the development of a CMS-based website for a furniture store.",
+      "text2": "We were part of the team and got frontend or backend help were needed. This task involved working in an agile way, including demos with the client."
     }
   },
   "education": {
@@ -128,7 +130,7 @@
       "title": "<h2><a href=\"https://www.kdg.be/toegepaste-informatica/\" target=\"_blank\">KDG</a></h2>",
       "period": "2017 - 2020",
       "text1": "Bachelor's Degree in Applied Informatics, Karel de Grote-hogeschool",
-      "text2": "I graduated with a focus on Agile software development methodologies, gaining valuable experience in teamwork and professional software development.",
+      "text2": "I graduated with a focus on agile software development methodologies, gaining valuable experience in teamwork and professional software development.",
       "technologies": "Learnt technologies:"
     },
     "block2": {
@@ -144,8 +146,9 @@
     "title": "Volunteer work",
     "block1": {
       "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
-      "text": "Galerij Artisjok from Lier asked me to create a website for their newest magazine. I volunteered to develop this in my free time using only non-paid services. It includes a frontend which can get accessed using a CMS, a form for feedback, a grid with randomized tiles and a contact page.",
-      "text2": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a></p>",
+      "text": "Galerij Artisjok from Lier asked me to create a website for their newest magazine. I volunteered to develop this on my own in my free time using only non-paid services.",
+      "text2": "It includes a frontend which can get accessed using a CMS, a form for feedback, a grid with randomized tiles, a contact page and a page for displaying pictures using a slider and Instagram.",
+      "text3": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a></p>",
       "technologies": "Featured technologies:"
     },
     "block2": {

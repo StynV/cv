@@ -19,6 +19,10 @@ const BlockDXC = async () => {
         html={t('workExperience.blockDXC.text2')}
         className={styles.text}
       />
+      <YGWYS
+        html={t('workExperience.blockDXC.text3')}
+        className={styles.text}
+      />
 
       <h2>{t('workExperience.blockDXC.technologies')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>

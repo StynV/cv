@@ -11,6 +11,7 @@ const BlockInternship = async () => {
       period={t('workExperience.blockInternship.period')}
     >
       <p className={styles.text}>{t('workExperience.blockInternship.text')}</p>
+      <p className={styles.text}>{t('workExperience.blockInternship.text2')}</p>
 
       <h2>{t('workExperience.blockDXC.technologies')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.nestjs')}</h3>
