@@ -16,6 +16,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'CV - Styn Vercauteren',
   description: 'CV from Styn Vercauteren',
+  keywords: "Styn Vercauteren, CV Styn Vercauteren, CV, React, React Developer Vlaanderen, Frontend Developer Vlaanderen, Full-Stack Developer Vlaanderen, Open To Work"
 }
 
 export default function RootLayout({
