@@ -1,7 +1,8 @@
 'use client'
 
-import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
+
 import styles from './index.module.scss'
 
 const ViewBasedAnimations = () => {

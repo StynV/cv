@@ -1,10 +1,11 @@
 import Animations from '@/components/poc/Motion/Animations'
-import styles from './page.module.scss'
+import AnimationControls from '@/components/poc/Tutorial/AnimationControls/AnimationControls'
 import BasicsOfMotion from '@/components/poc/Tutorial/BasicsOfMotion/BasicsOfMotion'
 import Gestures from '@/components/poc/Tutorial/Gestures/Gestures'
-import AnimationControls from '@/components/poc/Tutorial/AnimationControls/AnimationControls'
-import ViewBasedAnimations from '@/components/poc/Tutorial/ViewBasedAnimations/ViewBasedAnimations'
 import ScrollBasedAnimations from '@/components/poc/Tutorial/ScrollBasedAnimations/ScrollBasedAnimations'
+import ViewBasedAnimations from '@/components/poc/Tutorial/ViewBasedAnimations/ViewBasedAnimations'
+
+import styles from './page.module.scss'
 
 export default function AnimationsPOC() {
   return (

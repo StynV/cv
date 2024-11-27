@@ -1,9 +1,11 @@
-import styles from './work-experience.module.scss'
-import BlockOddball from './BlockOddball/BlockOddball'
+import { useTranslation } from '@app/i18n'
+
 import BlockDXC from './BlockDXC/BlockDXC'
 import BlockInternship from './BlockInternship/BlockInternship'
+import BlockOddball from './BlockOddball/BlockOddball'
 import BlockTwoPointO from './BlockTwoPointO/BlockTwoPointO'
-import { useTranslation } from '@app/i18n'
+
+import styles from './work-experience.module.scss'
 
 const WorkExperience = async () => {
   const { t } = await useTranslation('common')

@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, useAnimationControls } from 'framer-motion'
+
 import styles from './index.module.scss'
 
 const AnimationControls = () => {

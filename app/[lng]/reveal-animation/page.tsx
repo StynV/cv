@@ -1,4 +1,5 @@
 import Reveal from '@/components/poc/Reveal/Reveal'
+
 import styles from './page.module.scss'
 
 export default function RevealAnimation() {

@@ -1,5 +1,7 @@
 import { useTranslation } from '@app/i18n'
+
 import YGWYS from '../YGWYS/YGWYS'
+
 import styles from './intro.module.scss'
 
 const Intro = async () => {

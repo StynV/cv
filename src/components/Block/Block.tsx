@@ -1,8 +1,10 @@
 'use client'
 
 import { ReactNode } from 'react'
-import YGWYS from '@/components/YGWYS/YGWYS'
 import { useInView } from 'react-intersection-observer'
+
+import YGWYS from '@/components/YGWYS/YGWYS'
+
 import styles from './block.module.scss'
 
 const Block = ({

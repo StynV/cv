@@ -1,5 +1,7 @@
 import { useTranslation } from '@app/i18n'
+
 import Block from '../../Block/Block'
+
 import styles from './block1.module.scss'
 
 const Block1 = async () => {

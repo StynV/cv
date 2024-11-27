@@ -1,7 +1,9 @@
-import Image from 'next/image'
 import { useTranslation } from '@app/i18n'
-import styles from './header.module.scss'
+import Image from 'next/image'
+
 import Reveal from '../poc/Reveal/Reveal'
+
+import styles from './header.module.scss'
 
 const Header = async () => {
   const { t } = await useTranslation('common')

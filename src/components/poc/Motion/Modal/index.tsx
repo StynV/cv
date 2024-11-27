@@ -1,7 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
+
 import Backdrop from '../Backdrop'
+
 import styles from './index.module.scss'
 
 const Modal = ({

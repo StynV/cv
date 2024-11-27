@@ -1,7 +1,9 @@
 'use client'
 
 import { useState, useTransition } from 'react'
+
 import Products from './Products'
+
 import styles from './index.module.scss'
 
 const Transitions = () => {

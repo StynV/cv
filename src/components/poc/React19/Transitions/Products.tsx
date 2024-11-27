@@ -1,6 +1,7 @@
 'use client'
 
 import { memo } from 'react'
+
 import SlowProduct from './SlowProduct'
 
 // Wrapped in memo so it only renders once

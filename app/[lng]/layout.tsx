@@ -1,9 +1,11 @@
+import { Analytics } from '@vercel/analytics/react'
 import { dir } from 'i18next'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { languages } from '../i18n/settings'
+
 import { Providers } from '@/components/poc/Redux/provider'
-import { Analytics } from "@vercel/analytics/react"
+
+import { languages } from '../i18n/settings'
 
 import './globals.css'
 
@@ -16,7 +18,8 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'CV - Styn Vercauteren',
   description: 'CV from Styn Vercauteren',
-  keywords: "Styn Vercauteren, CV Styn Vercauteren, CV, React, React Developer Vlaanderen, Frontend Developer Vlaanderen, Full-Stack Developer Vlaanderen, Open To Work"
+  keywords:
+    'Styn Vercauteren, CV Styn Vercauteren, CV, React, React Developer Vlaanderen, Frontend Developer Vlaanderen, Full-Stack Developer Vlaanderen, Open To Work',
 }
 
 export default function RootLayout({

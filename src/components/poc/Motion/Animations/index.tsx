@@ -1,9 +1,11 @@
 'use client'
 
-import { AnimatePresence, motion } from 'framer-motion'
-import styles from './index.module.scss'
 import { useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
+
 import Modal from '../Modal'
+
+import styles from './index.module.scss'
 
 const Animations = () => {
   const [modalOpen, setModalOpen] = useState(false)

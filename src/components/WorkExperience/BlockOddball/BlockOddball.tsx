@@ -1,7 +1,10 @@
-import YGWYS from '@/components/YGWYS/YGWYS'
-import Block from '../../Block/Block'
-import styles from './block-oddball.module.scss'
 import { useTranslation } from '@app/i18n'
+
+import YGWYS from '@/components/YGWYS/YGWYS'
+
+import Block from '../../Block/Block'
+
+import styles from './block-oddball.module.scss'
 
 const BlockOddball = async () => {
   const { t } = await useTranslation('common')

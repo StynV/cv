@@ -1,7 +1,10 @@
-import YGWYS from '@/components/YGWYS/YGWYS'
-import Block from '../../Block/Block'
-import styles from './block-two-point-o.module.scss'
 import { useTranslation } from '@app/i18n'
+
+import YGWYS from '@/components/YGWYS/YGWYS'
+
+import Block from '../../Block/Block'
+
+import styles from './block-two-point-o.module.scss'
 
 const BlockTwoPointO = async () => {
   const { t } = await useTranslation('common')

@@ -1,7 +1,9 @@
 import { useTranslation } from '@app/i18n'
+
 import Block1 from './Block1/Block1'
-import styles from './volunteer-work.module.scss'
 import Block2 from './Block2/Block2'
+
+import styles from './volunteer-work.module.scss'
 
 const VolunteerWork = async () => {
   const { t } = await useTranslation('common')

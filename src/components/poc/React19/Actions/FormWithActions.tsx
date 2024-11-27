@@ -1,6 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+
 import styles from './index.module.scss'
 
 enum StateEnum {

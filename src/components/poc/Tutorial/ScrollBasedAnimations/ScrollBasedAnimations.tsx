@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
+
 import styles from './index.module.scss'
 
 const ScrollBasedAnimations = () => {

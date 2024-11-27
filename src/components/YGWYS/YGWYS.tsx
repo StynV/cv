@@ -1,4 +1,5 @@
 import sanitizeHtml from 'sanitize-html'
+
 import styles from './ygwys.module.scss'
 
 const YGWYS = ({ html, className }: { html: string; className?: string }) => (
