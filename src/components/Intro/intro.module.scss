@@ -5,6 +5,7 @@
 
   grid-template-columns: 1fr;
   gap: calc(#{$spacing-bace} * 1);
+  place-items: center;
 
   @media (min-width: $break-lg) {
     padding: calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20)
@@ -19,5 +20,23 @@
   .text {
     font-size: $font-size;
     text-align: center;
+  }
+
+  .icons {
+    @media (min-width: $break-2xl) {
+      width: 50%;
+    }
+
+    margin-top: 1rem;
+
+    .marqueeIcon {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      
+      .icon {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
   }
 }
