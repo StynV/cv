@@ -22,7 +22,13 @@ const Intro = async () => {
       <YGWYS html={html} className={styles.text} />
       <YGWYS html={html3} className={styles.text} />
 
-      <Marquee autoFill pauseOnHover speed={30} className={styles.icons}>
+      <Marquee
+        autoFill
+        pauseOnHover
+        speed={30}
+        gradient
+        className={styles.icons}
+      >
         {icons.map(icon => (
           <div key={icon.label} className={styles.marqueeIcon}>
             <span>{icon.icon}</span>
