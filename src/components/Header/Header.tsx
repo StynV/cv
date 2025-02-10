@@ -40,7 +40,7 @@ const Header = async () => {
           </Reveal>
           <Reveal>
             <a
-              href="https://www.linkedin.com/in/styn-vercauteren-96918018b/"
+              href="https://drive.google.com/file/d/1MTkr2vn6RY9V5cen7KNYOGEroSqyxkQa/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               itemProp="author"
