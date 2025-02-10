@@ -4,6 +4,7 @@ import BlockDXC from './BlockDXC/BlockDXC'
 import BlockInternship from './BlockInternship/BlockInternship'
 import BlockOddball from './BlockOddball/BlockOddball'
 import BlockTwoPointO from './BlockTwoPointO/BlockTwoPointO'
+import BlockCalqi from './Calqi/BlockCalqi'
 
 import styles from './work-experience.module.scss'
 
@@ -18,6 +19,7 @@ const WorkExperience = async () => {
     >
       <h1 className={styles.title}>{t('workExperience.title')}</h1>
 
+      <BlockCalqi />
       <BlockTwoPointO />
       <BlockOddball />
       <BlockDXC />

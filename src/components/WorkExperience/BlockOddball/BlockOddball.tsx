@@ -42,10 +42,9 @@ const BlockOddball = async () => {
         {t('workExperience.blockOddball.brightest.title')}
       </h3>
 
-      <YGWYS
-        html={t('workExperience.blockOddball.brightest.description')}
-        className={styles.text}
-      />
+      <p className={styles.text}>
+        {t('workExperience.blockOddball.brightest.description')}
+      </p>
 
       <a href="https://linc.legal/" target="_blank">
         <h3 className={styles.linkTitle}>
@@ -72,10 +71,8 @@ const BlockOddball = async () => {
       <p>{t('technologies.appEngine')}</p>
       <p>{t('technologies.sql')}</p>
       <p>{t('technologies.cloudBuild')}</p>
+      <p>{t('workExperience.blockOddball.responsibility')}</p>
       <h4 className={styles.linkTitle}>{t('technologies.mail')}</h4>
-      <p className={styles.linkTitle}>
-        {t('workExperience.blockOddball.responsibility')}
-      </p>
     </Block>
   )
 }

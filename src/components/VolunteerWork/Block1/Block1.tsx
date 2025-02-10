@@ -13,7 +13,12 @@ const Block1 = async () => {
     <Block title={t('volunteerWork.block1.title')}>
       <p className={styles.text}>{t('volunteerWork.block1.text')}</p>
       <p className={styles.text}>{t('volunteerWork.block1.text2')}</p>
-      <YGWYS html={t('volunteerWork.block1.text3')} className={styles.text} />
+      <p className={styles.text}>{t('volunteerWork.block1.text3')}</p>
+      <p className={styles.text}>{t('volunteerWork.block1.text4')}</p>
+      <p className={styles.text}>{t('volunteerWork.block1.text5')}</p>
+      <p className={styles.text}>{t('volunteerWork.block1.text6')}</p>
+
+      <YGWYS html={t('volunteerWork.block1.text7')} className={styles.text} />
 
       <h2>{t('volunteerWork.block1.technologies')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>

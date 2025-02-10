@@ -7,8 +7,8 @@
   "phoneValue": "tel:+32 496 75 42 60",
   "city": "Merksem",
   "pdf": "PDF version",
-  "intro1": "Hi! I'm a medior frontend with a bachelor's degree in Applied Informatics. I'm mainly focused on React, but have also worked with Java and NodeJS before.",
-  "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
+  "intro1": "Hi! I'm a medior frontend with a bachelor's degree in Applied Informatics from KDG. I'm mainly focused on React, but have also worked with PHP (Symfony), Java and NodeJS before.",
+  "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
   "intro3": "I have around 3.5 years of working experience.",
   "technologies": {
     "title": "Featured technologies",
@@ -16,6 +16,7 @@
     "nextjs": "NextJS / React",
     "remix": "Remix",
     "typescript": "Typescript",
+    "react-vite": "React (Vite)",
     "vite": "Vite",
     "gatsby": "Gatsby",
     "jest": "Jest",
@@ -41,7 +42,6 @@
     "webComponents": "Webcomponents",
     "storybook": "Storybook",
     "spring": "Java / Spring Boot",
-    "rest": "Rest API",
     "hibernate": "Hibernate",
     "junit": "JUnit",
     "mockito": "Mockito",
@@ -61,50 +61,59 @@
     "graphql": "GraphQL",
     "tailwind": "Tailwind",
     "tailwindVA": "Tailwind Variants",
-    "vercel": "Vercel"
+    "vercel": "Vercel",
+    "tanstack": "tanstack query / table",
+    "php": "PHP Symfony",
+    "mysql": "MySQL"
   },
   "workExperience": {
     "title": "Work experience",
+    "blockCalqi": {
+      "title": "<h2><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a></h2>",
+      "period": "December 2024 - February 2025",
+      "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a> is a startup aimed at architects. As the sole full-time developer,I was responsible for modernizing the application.</p>",
+      "text2": "This role challenged me to expand my technical skills, particularly in handling a complex legacy codebase with a lot of responsability.",
+      "text3": "At Calqi, I contributed to modernizing the application, improving its maintainability and performance. While the company required deeper PHP expertise, they valued my contributions and the improvements I implemented. This experience strengthened my ability to quickly adapt, work independently, and take ownership of technical challenges."
+    },
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - August 2024",
-      "text1": "<p>My latest working experience is with <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend React developer.</p>",
-      "text2": "However, this was shortlived due to this job not being a complete match after all.",
+      "text1": "<p>I worked at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend developer. However, this was shortlived due to this job not being a complete match after all.</p>",
       "beat": {
         "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "<p>My first project was at <a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a>, the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. I worked for a month on a new project which is still in development.</p>"
+        "description": "<p>I contributed to a new project for the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>, working on development for a month. The project is still in progress</p>"
       },
       "beamery": {
         "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
-        "description": "<p>I worked in a small team for the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website. This will be released soon.</p>"
+        "description": "<p>I contributed to the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website, improving UI/UX and performanc</p>"
       },
       "troubleshootingPage": {
         "title": "POC troubleshooting page",
-        "description": "I developed an internal page for the company website. This page is meant for customers who are experiencing issues with the websites. On this page we display systems specs etc to make fiding the issue easier."
+        "description": " I developed an internal troubleshooting page for the company website. This page helps customers diagnose technical issues by displaying system specifications."
       },
       "poc": {
         "title": "POC",
-        "description": "During my time at 2.O I also co-developed 2 proof of concept projects for potential projects."
+        "description": " Lastly I co-developed two proof-of-concept projects for potential future initiatives."
       }
     },
     "blockOddball": {
       "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
       "period": "January 2023 - November 2023",
       "text1": "<p>I worked as a Frontend Developer at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a>, which later merged with <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a>.</p>",
-      "text2": "Initially part of a 4-member team, I eventually took on the responsibility of leading the team single-handedly. Specializing in React development, I have also gained experience in deploying websites to Google Cloud.",
-      "text3": "I co-developed these three websites from scratch until finish.",
+      "text2": "I started as part of a four-member team and eventually took on the responsibility of leading the team independently. Specializing in React development, I also gained experience deploying websites on Google Cloud.",
+      "text3": "I co-developed 3 websites from scratch, seeing them through to completion, ensuring high performance and user-friendly experiences.",
       "keyProjects": "Key Projects",
       "tvc": {
         "title": "TheValueChain",
-        "description": "<p>Our first website was for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>'s largest company, TheValueChain. Our responsibilities included creating the website's components, handling bug fixes and change requests post-launch.</p>"
+        "description": "<p>We developed the website for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>’s largest company, creating reusable components, fixing bugs, and handling change requests post-launch.</p>"
       },
       "brightest": {
         "title": "Brightest",
-        "description": "<p>Our team also developed a website for Gumption's second largest company. The project involved similar tasks and technologies as TheValueChain.</p>"
+        "description": "We also built the website for Gumption’s second-largest company, utilizing a similar tech stack and development process as TheValueChain."
       },
       "linc": {
         "title": "Linc.legal",
-        "description": "Our last creation was a website for this law firm based in Antwerp, using the same technology stack as the previous projects."
+        "description": " Lastly we also designed and developed a website for this Antwerp-based law firm, maintaining consistency in technology and best practices across projects."
       },
       "technologies": "All of these websites use these technologies:",
       "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
@@ -112,16 +121,16 @@
     "blockDXC": {
       "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
       "period": "September 2020 - December 2022",
-      "text1": "<p>My first paid working experience was as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>, the internal authorization panel, by converting legacy code into separate APIs.</p>",
-      "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website that allows civilians to view nearby construction projects on a map.</p>",
-      "text3": "<p>Initially I worked on the backend in a +5 team, but eventually I focused on the frontend together with a senior developer.</p>",
+      "text1": "<p>My first paid working experience was as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a> which is the internal authorization panel by converting legacy code into microservices, improving maintainability and scalability.</p>",
+      "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website which enables civilians to view nearby construction projects on a map.</p>",
+      "text3": " I started on the backend in a five-person team before transitioning to frontend development, working closely with a senior developer to enhance UI functionality.",
       "technologies": "Used technologies:"
     },
     "blockInternship": {
       "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Internship icapps</a></h2>",
       "period": "April 2020 - June 2020",
-      "text": "I concluded my academic journey with an 8-week internship at this software company. Here I worked as a duo on the development of a CMS-based website for a furniture store.",
-      "text2": "We were part of the team and got frontend or backend help were needed. This task involved working in an agile way, including demos with the client."
+      "text": "I concluded my academic journey with an 8-week internship at an agency, where I worked in a duo to develop a CMS-based website for a furniture store.",
+      "text2": "As part of the team, we received frontend and backend support when needed. The project followed an agile workflow, including regular client demos to ensure alignment with their needs."
     }
   },
   "education": {
@@ -146,15 +155,19 @@
     "title": "Volunteer work",
     "block1": {
       "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
-      "text": "Galerij Artisjok from Lier asked me to create a website for their newest magazine. I volunteered to develop this on my own in my free time using only non-paid services.",
-      "text2": "It includes a frontend which can get accessed using a CMS, a form for feedback, a grid with randomized tiles, a contact page and a page for displaying pictures using a slider and Instagram.",
-      "text3": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a></p>",
+      "text": "Galerij Artisjok in Lier asked me to create a website for their newest magazine. I took on this project in my free time, developing it independently using only non-paid services.",
+      "text2": "The website features:",
+      "text3": "A frontend integrated with a CMS for easy content management",
+      "text4": "A feedback form",
+      "text5": "A dynamic grid with randomized tile",
+      "text6": "A photo gallery with a slider and Instagram integration",
+      "text7": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a></p>",
       "technologies": "Featured technologies:"
     },
     "block2": {
       "title": "<h2><a href=\"https://www.react.brussels/\" target=\"_blank\">React Brussels</a></h2>",
-      "text": "I got the chance of volunteering at React Brussels. Not only did this gave me the opportunity to meet loads of skilled people, I was also able to follow some very interesting talks and workshops.",
-      "text2": "<p>I mostly learned about the framework <a href=\"https://astro.build/\" target=\"_blank\">Astro</a>, and how to use <a href=\"https://www.youtube.com/watch?v=y5c1Y_EQuvI&ab_channel=CallstackEngineers\" target=\"_blank\">server components for forms</a> which was added in React 19, but also saw talks about accessability, AI and view transitions.</p>",
+      "text": "I had the opportunity to volunteer at React Brussels, which allowed me to connect with many skilled professionals and attend insightful talks and workshops.",
+      "text2": "<p>During the event, I had my first experience with <a href=\"https://astro.build/\" target=\"_blank\">Astro</a>and learned how to use server components for forms, a feature introduced in React 19. <br /> I also attended sessions on accessibility, AI, and view transitions, gaining valuable insights into modern web development practices.</p>",
       "technologies": "Featured technologies:"
     }
   }

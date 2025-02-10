@@ -20,15 +20,17 @@ const Block1 = async () => {
       </p>
 
       <h2>{t('education.block1.technologies')}</h2>
-      <h3 className={styles.linkTitle}>{t('technologies.vue')}</h3>
-      <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
+      <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
+      <h3>{t('technologies.vue')}</h3>
+      <h3>{t('technologies.react')}</h3>
       <p>{t('technologies.typescript')}</p>
       <p>{t('technologies.jest')}</p>
       <p>{t('technologies.i18n')}</p>
       <p>{t('technologies.redux')}</p>
-      <h3 className={styles.linkTitle}>{t('technologies.nodejs')}</h3>
-      <h4 className={styles.linkTitle}>{t('technologies.spring')}</h4>
-      <h4>{t('technologies.rest')}</h4>
+
+      <h3 className={styles.linkTitle}>{t('technologies.backend')}</h3>
+      <h3>{t('technologies.nodejs')}</h3>
+      <h4>{t('technologies.spring')}</h4>
       <p>{t('technologies.hibernate')}</p>
       <p>{t('technologies.junit')}</p>
       <p>{t('technologies.mockito')}</p>

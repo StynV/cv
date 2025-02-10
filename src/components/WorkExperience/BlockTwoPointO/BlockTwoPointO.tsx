@@ -18,9 +18,6 @@ const BlockTwoPointO = async () => {
         html={t('workExperience.blockTwoPointO.text1')}
         className={`${styles.text} ${styles.textIntro}`}
       />
-      <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockTwoPointO.text2')}
-      </p>
 
       <h2 className={styles.blockTitle}>
         {t('workExperience.blockOddball.keyProjects')}

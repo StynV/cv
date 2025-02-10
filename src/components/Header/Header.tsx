@@ -40,7 +40,7 @@ const Header = async () => {
           </Reveal>
           <Reveal>
             <a
-              href="https://drive.google.com/file/d/1MTkr2vn6RY9V5cen7KNYOGEroSqyxkQa/view?usp=sharing"
+              href="https://www.linkedin.com/in/styn-vercauteren-96918018b/"
               target="_blank"
               rel="noreferrer"
               itemProp="author"
@@ -65,7 +65,7 @@ const Header = async () => {
         <div>
           <Reveal>
             <a
-              href="https://drive.google.com/file/d/1GNA3IrEMLBXrP5DkZCpFXsZoQ2MRWC_m/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MTkr2vn6RY9V5cen7KNYOGEroSqyxkQa/view?usp=sharing"
               target="_blank"
             >
               <h6 className={styles.city}>{t('pdf')}</h6>

@@ -22,12 +22,10 @@ const BlockDXC = async () => {
         html={t('workExperience.blockDXC.text2')}
         className={styles.text}
       />
-      <YGWYS
-        html={t('workExperience.blockDXC.text3')}
-        className={styles.text}
-      />
+      <p className={styles.text}>{t('workExperience.blockDXC.text3')}</p>
 
       <h2>{t('workExperience.blockDXC.technologies')}</h2>
+      <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
       <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
       <p>{t('technologies.typescript')}</p>
       <p>{t('technologies.reactQuery')}</p>
@@ -39,14 +37,14 @@ const BlockDXC = async () => {
       <p>{t('technologies.storybook')}</p>
       <p>{t('technologies.sass')}</p>
 
+      <h3 className={styles.linkTitle}>{t('technologies.backend')}</h3>
       <h3 className={styles.linkTitle}>{t('technologies.spring')}</h3>
-      <p>{t('technologies.rest')}</p>
       <p>{t('technologies.hibernate')}</p>
       <p>{t('technologies.junit')}</p>
       <p>{t('technologies.mockito')}</p>
 
-      <h3 className={styles.linkTitle}>{t('technologies.oracle')}</h3>
-      <h3 className={styles.linkTitle}>{t('technologies.aws')}</h3>
+      <h3>{t('technologies.oracle')}</h3>
+      <h3>{t('technologies.aws')}</h3>
       <p>{t('technologies.sns')}</p>
       <p>{t('technologies.sqs')}</p>
       <p>{t('technologies.s3')}</p>
