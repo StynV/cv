@@ -5,8 +5,8 @@ import Reveal from '../poc/Reveal/Reveal'
 
 import styles from './header.module.scss'
 
-const Header = async () => {
-  const { t } = await useTranslation('common')
+const Header = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <header className={styles.header}>

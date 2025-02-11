@@ -6,8 +6,8 @@ import Block from '../../Block/Block'
 
 import styles from './block2.module.scss'
 
-const Block2 = async () => {
-  const { t } = await useTranslation('common')
+const Block2 = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block title={t('volunteerWork.block2.title')}>

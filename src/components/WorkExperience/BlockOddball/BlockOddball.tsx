@@ -6,8 +6,8 @@ import Block from '../../Block/Block'
 
 import styles from './block-oddball.module.scss'
 
-const BlockOddball = async () => {
-  const { t } = await useTranslation('common')
+const BlockOddball = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block

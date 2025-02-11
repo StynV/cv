@@ -4,8 +4,8 @@ import Block from '../../Block/Block'
 
 import styles from './block-internship.module.scss'
 
-const BlockInternship = async () => {
-  const { t } = await useTranslation('common')
+const BlockInternship = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block

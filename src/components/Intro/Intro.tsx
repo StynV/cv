@@ -6,8 +6,8 @@ import icons from './icons'
 
 import styles from './intro.module.scss'
 
-const Intro = async () => {
-  const { t } = await useTranslation('common')
+const Intro = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   const html: string = t('intro2')
   const html3: string = t('intro3')

@@ -14,11 +14,11 @@ export default async function Home({
 }) {
   return (
     <main className={styles.main}>
-      <Header />
-      <Intro />
-      <WorkExperience />
-      <Education />
-      <VolunteerWork />
+      <Header lng={lng} />
+      <Intro lng={lng} />
+      <WorkExperience lng={lng} />
+      <Education lng={lng} />
+      <VolunteerWork lng={lng} />
       <Footer />
     </main>
   )

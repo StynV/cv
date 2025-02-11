@@ -4,8 +4,8 @@ import Block from '../../Block/Block'
 
 import styles from './block1.module.scss'
 
-const Block1 = async () => {
-  const { t } = await useTranslation('common')
+const Block1 = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block

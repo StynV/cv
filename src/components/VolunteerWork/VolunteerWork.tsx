@@ -5,8 +5,8 @@ import Block2 from './Block2/Block2'
 
 import styles from './volunteer-work.module.scss'
 
-const VolunteerWork = async () => {
-  const { t } = await useTranslation('common')
+const VolunteerWork = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <article
@@ -16,8 +16,8 @@ const VolunteerWork = async () => {
     >
       <h1 className={styles.title}>{t('volunteerWork.title')}</h1>
 
-      <Block1 />
-      <Block2 />
+      <Block1 lng={lng} />
+      <Block2 lng={lng} />
     </article>
   )
 }

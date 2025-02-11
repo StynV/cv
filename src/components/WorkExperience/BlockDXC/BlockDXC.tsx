@@ -6,8 +6,8 @@ import Block from '../../Block/Block'
 
 import styles from './block-dxc.module.scss'
 
-const BlockDXC = async () => {
-  const { t } = await useTranslation('common')
+const BlockDXC = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block

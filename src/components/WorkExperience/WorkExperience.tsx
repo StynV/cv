@@ -8,8 +8,8 @@ import BlockCalqi from './Calqi/BlockCalqi'
 
 import styles from './work-experience.module.scss'
 
-const WorkExperience = async () => {
-  const { t } = await useTranslation('common')
+const WorkExperience = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <article
@@ -20,10 +20,10 @@ const WorkExperience = async () => {
       <h1 className={styles.title}>{t('workExperience.title')}</h1>
 
       <BlockCalqi />
-      <BlockTwoPointO />
-      <BlockOddball />
-      <BlockDXC />
-      <BlockInternship />
+      <BlockTwoPointO lng={lng} />
+      <BlockOddball lng={lng} />
+      <BlockDXC lng={lng} />
+      <BlockInternship lng={lng} />
     </article>
   )
 }

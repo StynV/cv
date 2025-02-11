@@ -6,8 +6,8 @@ import Block from '../../Block/Block'
 
 import styles from './block-two-point-o.module.scss'
 
-const BlockTwoPointO = async () => {
-  const { t } = await useTranslation('common')
+const BlockTwoPointO = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block
