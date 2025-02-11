@@ -9,7 +9,7 @@
     justify-content: center;
     gap: calc(#{$spacing-bace} * 10);
     padding: calc(#{$spacing-bace} * 10) calc(#{$spacing-bace} * 20)
-      calc(#{$spacing-bace} * 5) calc(#{$spacing-bace} * 20);
+      calc(#{$spacing-bace} * 2) calc(#{$spacing-bace} * 20);
   }
 
   @media (max-width: $break-lg) {

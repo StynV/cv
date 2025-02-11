@@ -1,0 +1,15 @@
+@import "../../styles/vars.scss";
+
+.main {
+    background-color: $header-background-color;
+    display: flex;
+    justify-content: center;
+    padding-bottom: calc(#{$spacing-bace} * 2);
+
+    .select {
+        padding: calc(#{$spacing-bace} * 1);
+        border-radius: 10%;
+        background-color: white;
+        text-align: center;
+    }
+}

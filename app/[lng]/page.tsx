@@ -2,6 +2,7 @@ import Education from '@/components/Education/Education'
 import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import Intro from '@/components/Intro/Intro'
+import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher'
 import VolunteerWork from '@/components/VolunteerWork/VolunteerWork'
 import WorkExperience from '@/components/WorkExperience/WorkExperience'
 
@@ -15,6 +16,7 @@ export default async function Home({
   return (
     <main className={styles.main}>
       <Header lng={lng} />
+      <LanguageSwitcher />
       <Intro lng={lng} />
       <WorkExperience lng={lng} />
       <Education lng={lng} />
