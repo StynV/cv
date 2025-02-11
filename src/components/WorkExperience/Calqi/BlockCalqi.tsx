@@ -6,8 +6,8 @@ import Block from '../../Block/Block'
 
 import styles from './block-calqi.module.scss'
 
-const BlockCalqi = async () => {
-  const { t } = await useTranslation('common')
+const BlockCalqi = async ({ lng }: { lng: string }) => {
+  const { t } = await useTranslation(lng)
 
   return (
     <Block

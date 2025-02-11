@@ -7,11 +7,11 @@
   "phoneValue": "tel:+32 496 75 42 60",
   "city": "Merksem",
   "pdf": "PDF version",
-  "intro1": "Hallo! Ik ben een medior frontend developer met een bachelor Toegepaste Informatica. Deze heb ik behaald op KDG.",
-  "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
-  "intro3": "I have around 3.5 years of working experience.",
+  "intro1": "Hallo! Ik ben een medior frontend developer met een bachelor Toegepaste Informatica. Deze heb ik behaald op KDG. Ik ben vooral gefocust op React, maar heb ook gewerkt met PHP (Symfony), Java en NodeJS.",
+  "intro2": "<p>Ik ben 26 jaar, maar heb al veel ervaring op werk en academisch vlak. Dit in test-driven, agile website development. Ik heb deze vaardigheden bijgeschaafd bij <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
+  "intro3": "Ik heb rond 3.5 jaar aan werkervaring.",
   "technologies": {
-    "title": "Featured technologies",
+    "title": "Gebruikte technologieën:",
     "frontend": "Frontend",
     "nextjs": "NextJS / React",
     "remix": "Remix",
@@ -67,108 +67,106 @@
     "mysql": "MySQL"
   },
   "workExperience": {
-    "title": "Work experience",
+    "title": "Werkervaring",
     "blockCalqi": {
       "title": "<h2><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a></h2>",
-      "period": "December 2024 - February 2025",
-      "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a> is a startup aimed at architects. As the sole full-time developer,I was responsible for modernizing the application.</p>",
-      "text2": "This role challenged me to expand my technical skills, particularly in handling a complex legacy codebase with a lot of responsability.",
-      "text3": "At Calqi, I contributed to modernizing the application, improving its maintainability and performance. While the company required deeper PHP expertise, they valued my contributions and the improvements I implemented. This experience strengthened my ability to quickly adapt, work independently, and take ownership of technical challenges."
+      "period": "December 2024 - Februari 2025",
+      "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>  is een startup gericht naar architecten. Ik werkte als de enige full-time developer. Hier was ik vooral verantwoordelijk om de website moderner te maken.</p>",
+      "text2": "Deze rol was een moeilijke uitdaging waarbij ik een legacy codebase moest aanpassen waar veel ook verantwoordelijkheid aan vasthing.",
+      "text3": "Tijdens mijn periode hier heb ik de codebase aanzienlijk verbeterd, maar het bedrijf had uiteindelijk een developer nodig met diepere PHP-expertise. Ondanks dit, werd mijn werk geapprecieerd en versterkt deze ervaring mijn mogelijkheid om snel aan te passen, zelfstandig werk op te nemen en uitdagingen aan te gaan."
     },
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
-      "period": "April 2024 - August 2024",
-      "text1": "<p>I worked at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend developer. However, this was shortlived due to this job not being a complete match after all.</p>",
+      "period": "April 2024 - Augustus 2024",
+      "text1": "<p>Bij <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> heb ik gewerkt als frontend consultant, maar dit was korter dan verwacht omdat het geen goede match bleek te zijn.</p>",
       "beat": {
         "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "<p>I contributed to a new project for the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>, working on development for a month. The project is still in progress</p>"
+        "description": "Ik heb meegewerkt aan het nieuwe project voor het <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a> voor een maand. Dit is een project waar nog aan gewerkt wordt.</p>"
       },
       "beamery": {
         "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
-        "description": "<p>I contributed to the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website, improving UI/UX and performanc</p>"
+        "description": "<p>Ik heb meegeholpen aan de redesign van <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website alsdeel van een klein team.</p>"
       },
       "troubleshootingPage": {
         "title": "POC troubleshooting page",
-        "description": " I developed an internal troubleshooting page for the company website. This page helps customers diagnose technical issues by displaying system specifications."
+        "description": "Ik heb een pagina gemaakt voor de bedrijfswebsite. Deze wordt gebruikt om klanten te helpen bij technische problemen door details over hun browser te tonen."
       },
       "poc": {
         "title": "POC",
-        "description": " Lastly I co-developed two proof-of-concept projects for potential future initiatives."
+        "description": "Als laatste heb ik twee proof-of-concept mee gemaakt voor potentiële klanten."
       }
     },
     "blockOddball": {
       "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
-      "period": "January 2023 - November 2023",
-      "text1": "<p>I worked as a Frontend Developer at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a>, which later merged with <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a>.</p>",
-      "text2": "I started as part of a four-member team and eventually took on the responsibility of leading the team independently. Specializing in React development, I also gained experience deploying websites on Google Cloud.",
-      "text3": "I co-developed 3 websites from scratch, seeing them through to completion, ensuring high performance and user-friendly experiences.",
-      "keyProjects": "Key Projects",
+      "period": "Januari 2023 - November 2023",
+      "text1": "Ik startte in deze agency als deel van een team van 4 mensen. Uiteindelijk moest ik het werk alleen doen. Hier kon ik me niet alleen specialiseren in React maar hier kreeg ik ook ervaring in het deployen van websites op Google Cloud.",
+      "text2": "Ik heb deze 3 websites van begin tot eind mee ontwikkeld, met focus op hoge prestaties en een optimale gebruikerservaring.",
+      "keyProjects": "Belangrijke projecten",
       "tvc": {
         "title": "TheValueChain",
-        "description": "<p>We developed the website for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>’s largest company, creating reusable components, fixing bugs, and handling change requests post-launch.</p>"
+        "description": "<p>Wij hadden een website gemaakt voor het grootste bedrijf van <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>. Hiervoor maakten we gebruik van herbruikbare componenten, hebben we bugs gefixt en na de launch nieuwe features toegepast.</p>"
       },
       "brightest": {
         "title": "Brightest",
-        "description": "We also built the website for Gumption’s second-largest company, utilizing a similar tech stack and development process as TheValueChain."
+        "description": "Voor het tweede grootste bedrijf van Gumption hebben we hetzelfde gedaan met een gelijkaardige tech-stack."
       },
       "linc": {
         "title": "Linc.legal",
-        "description": " Lastly we also designed and developed a website for this Antwerp-based law firm, maintaining consistency in technology and best practices across projects."
+        "description": " Als laatste hebben we ook de website gemaakt voor een advocatenkantoor uit Antwerpen. Hierbij gebruikten we dezelfde tech-stack en best practices van de vorige projecten."
       },
-      "technologies": "All of these websites use these technologies:",
-      "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
+      "technologies": "Deze websites gebruiken deze technologieën:",
+      "responsibility": "Het was ook mijn verantwoordelijkheid voor de go-live. Dit hield in het deployen van de site & DNS configureren."
     },
     "blockDXC": {
       "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
       "period": "September 2020 - December 2022",
-      "text1": "<p>My first paid working experience was as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a> which is the internal authorization panel by converting legacy code into microservices, improving maintainability and scalability.</p>",
-      "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website which enables civilians to view nearby construction projects on a map.</p>",
-      "text3": " I started on the backend in a five-person team before transitioning to frontend development, working closely with a senior developer to enhance UI functionality.",
-      "technologies": "Used technologies:"
+      "text1": "<p>Mijn eerste betaalde werkervaring was als consultant voor de Vlaamse Overheid. Mijn eerste jaar heb ik besteed aan het moderniseren van het <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>. Dit is de interne autorisatie-tool. Dit deden we door legacy code om te zetten naar microservices, wat de schaalbaarheid en onderhoudbaarheid verbeterde.</p>",
+      "text2": "<p>Voor Departement Omgeving heb ik mee het <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> gemaakt. Dit is een publieke website gemaakt waar je op een map kunt zien welke projecten in de buurt bezig zijn.</p>",
+      "text3": "Initieel werkte ik aan de backend als deel van een team van 5 mensen, maar later focuste ik mij meer op de frontend samen met een senior developer.",
+      "technologies": "Gebruikte technologieën:"
     },
     "blockInternship": {
-      "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Internship icapps</a></h2>",
-      "period": "April 2020 - June 2020",
-      "text": "I concluded my academic journey with an 8-week internship at an agency, where I worked in a duo to develop a CMS-based website for a furniture store.",
-      "text2": "As part of the team, we received frontend and backend support when needed. The project followed an agile workflow, including regular client demos to ensure alignment with their needs."
+      "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Stage icapps</a></h2>",
+      "period": "April 2020 - Juni 2020",
+      "text": "Ik heb mijn opleiding beëindigd met een stage bij deze agency. Hier werkte ik in duo aan een website op basis van een CMS voor een meubelwinkel.",
+      "text2": "Als deel van het team kregen we frontend en backend hulp wanneer dit nodig was. Het project volgde een agile workflow met klantdemo’s op een schema om te zorgen dat alles was zoals gewenst."
     }
   },
   "education": {
-    "title": "Education",
+    "title": "Opleiding",
     "block1": {
       "title": "<h2><a href=\"https://www.kdg.be/toegepaste-informatica/\" target=\"_blank\">KDG</a></h2>",
       "period": "2017 - 2020",
-      "text1": "Bachelor's Degree in Applied Informatics, Karel de Grote-hogeschool",
-      "text2": "I graduated with a focus on agile software development methodologies, gaining valuable experience in teamwork and professional software development.",
-      "technologies": "Learnt technologies:"
+      "text1": "Bachelor diploma in Toegepaste Informatica, Karel de Grotehogeschool",
+      "text2": "Ik ben afgestudeerd met een focus op agile software development, met ook ervaring in werken in een team.",
+      "technologies": "Geleerde technologieën:"
     },
     "block2": {
       "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
-      "text1": "To keep pace with the latest technologies, I have successfully completed three courses on Udemy, earning certificates upon completion.",
-      "technologies": "Featured technologies:",
+      "text1": "Om bij te blijven met de laatste technologieën, heb ik 3 cursussen succesvol doorbracht op Udemy. Hiervoor kreeg ik telkens een certificaat.",
+      "technologies": "Technologiëen:",
       "react": "React (April 2022)",
-      "vue": "Vue (August 2021)",
-      "aws": "AWS (October 2020)"
+      "vue": "Vue (Augustus 2021)",
+      "aws": "AWS (Oktober 2020)"
     }
   },
   "volunteerWork": {
-    "title": "Volunteer work",
+    "title": "Persoonlijke projecten",
     "block1": {
       "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
-      "text": "Galerij Artisjok in Lier asked me to create a website for their newest magazine. I took on this project in my free time, developing it independently using only non-paid services.",
-      "text2": "The website features:",
-      "text3": "A frontend integrated with a CMS for easy content management",
-      "text4": "A feedback form",
-      "text5": "A dynamic grid with randomized tile",
-      "text6": "A photo gallery with a slider and Instagram integration",
-      "text7": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a></p>",
-      "technologies": "Featured technologies:"
+      "text": "Galerij Artisjok in Lier vroeg aan mij om een website te maken voor hun nieuwe magazine. Dit project heb ik alleen gedaan in mijn vrije tijd. Dit allemaal met gratis services.",
+      "text2": "Deze website heeft:",
+      "text3": "Een frontend geïntegreerd met een CMS voor makkelijke content management",
+      "text4": "Een feedback form",
+      "text5": "Een dynamisch grid met randomized tiles",
+      "text6": "Een foto-gallerij met een slider en Instagram integratie",
+      "text7": "<p>Je vindt de source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">hier</a></p>",
+      "technologies": "Gebruikte technologieen:"
     },
     "block2": {
       "title": "<h2><a href=\"https://www.react.brussels/\" target=\"_blank\">React Brussels</a></h2>",
-      "text": "I had the opportunity to volunteer at React Brussels, which allowed me to connect with many skilled professionals and attend insightful talks and workshops.",
-      "text2": "<p>During the event, I had my first experience with <a href=\"https://astro.build/\" target=\"_blank\">Astro</a>and learned how to use server components for forms, a feature introduced in React 19. <br /> I also attended sessions on accessibility, AI, and view transitions, gaining valuable insights into modern web development practices.</p>",
-      "technologies": "Featured technologies:"
+      "text": "Als vrijwilliger bij React Brussels ontmoette ik inspirerende professionals en woonde ik boeiende talks en workshops bij.",
+      "text2": "<p>Tijdens dit event had ik mijn eerste ervaring met <a href=\"https://astro.build/\" target=\"_blank\">Astro</a> en leerde ik te werken met server componenten voor formulieren. Dit is een feature uit React 19. <br />Ook waren er sessies over accessibility, AI en view transitions. Hierdoor kreeg ik meer inzicht in moderne web development practices.</p>"
     }
   }
 }

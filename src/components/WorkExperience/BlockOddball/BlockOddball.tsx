@@ -14,15 +14,11 @@ const BlockOddball = async ({ lng }: { lng: string }) => {
       title={t('workExperience.blockOddball.title')}
       period={t('workExperience.blockOddball.period')}
     >
-      <YGWYS
-        html={t('workExperience.blockOddball.text1')}
-        className={`${styles.text} ${styles.textIntro}`}
-      />
       <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockOddball.text2')}
+        {t('workExperience.blockOddball.text1')}
       </p>
       <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockOddball.text3')}
+        {t('workExperience.blockOddball.text2')}
       </p>
 
       <h2 className={styles.blockTitle}>

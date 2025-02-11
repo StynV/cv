@@ -81,27 +81,26 @@
       "text1": "<p>I worked at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend developer. However, this was shortlived due to this job not being a complete match after all.</p>",
       "beat": {
         "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "<p>I contributed to a new project for the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>, working on development for a month. The project is still in progress</p>"
+        "description": "<p>I contributed to a new project for the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>, working on development for a month. The project is still in progress.</p>"
       },
       "beamery": {
         "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
-        "description": "<p>I contributed to the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website, improving UI/UX and performanc</p>"
+        "description": "<p>I contributed to the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website, improving UI/UX and performance.</p>"
       },
       "troubleshootingPage": {
         "title": "POC troubleshooting page",
-        "description": " I developed an internal troubleshooting page for the company website. This page helps customers diagnose technical issues by displaying system specifications."
+        "description": "I developed an internal troubleshooting page for the company website. This page helps customers diagnose technical issues by displaying system specifications."
       },
       "poc": {
         "title": "POC",
-        "description": " Lastly I co-developed two proof-of-concept projects for potential future initiatives."
+        "description": "Lastly I co-developed two proof-of-concept projects for potential future initiatives."
       }
     },
     "blockOddball": {
       "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
       "period": "January 2023 - November 2023",
-      "text1": "<p>I worked as a Frontend Developer at <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a>, which later merged with <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a>.</p>",
-      "text2": "I started as part of a four-member team and eventually took on the responsibility of leading the team independently. Specializing in React development, I also gained experience deploying websites on Google Cloud.",
-      "text3": "I co-developed 3 websites from scratch, seeing them through to completion, ensuring high performance and user-friendly experiences.",
+      "text1": "I started as part of a four-member team and eventually took on the responsibility of leading the team independently. Specializing in React development, I also gained experience deploying websites on Google Cloud.",
+      "text2": "I co-developed 3 websites from scratch, seeing them through to completion, ensuring high performance and user-friendly experiences.",
       "keyProjects": "Key Projects",
       "tvc": {
         "title": "TheValueChain",
@@ -113,7 +112,7 @@
       },
       "linc": {
         "title": "Linc.legal",
-        "description": " Lastly we also designed and developed a website for this Antwerp-based law firm, maintaining consistency in technology and best practices across projects."
+        "description": "Lastly we also designed and developed a website for this Antwerp-based law firm, maintaining consistency in technology and best practices across projects."
       },
       "technologies": "All of these websites use these technologies:",
       "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
@@ -123,7 +122,7 @@
       "period": "September 2020 - December 2022",
       "text1": "<p>My first paid working experience was as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a> which is the internal authorization panel by converting legacy code into microservices, improving maintainability and scalability.</p>",
       "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website which enables civilians to view nearby construction projects on a map.</p>",
-      "text3": " I started on the backend in a five-person team before transitioning to frontend development, working closely with a senior developer to enhance UI functionality.",
+      "text3": "I started on the backend in a five-person team before transitioning to frontend development, working closely with a senior developer to enhance UI functionality.",
       "technologies": "Used technologies:"
     },
     "blockInternship": {
@@ -152,7 +151,7 @@
     }
   },
   "volunteerWork": {
-    "title": "Volunteer work",
+    "title": "Personal Projects",
     "block1": {
       "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
       "text": "Galerij Artisjok in Lier asked me to create a website for their newest magazine. I took on this project in my free time, developing it independently using only non-paid services.",
@@ -167,8 +166,7 @@
     "block2": {
       "title": "<h2><a href=\"https://www.react.brussels/\" target=\"_blank\">React Brussels</a></h2>",
       "text": "I had the opportunity to volunteer at React Brussels, which allowed me to connect with many skilled professionals and attend insightful talks and workshops.",
-      "text2": "<p>During the event, I had my first experience with <a href=\"https://astro.build/\" target=\"_blank\">Astro</a>and learned how to use server components for forms, a feature introduced in React 19. <br /> I also attended sessions on accessibility, AI, and view transitions, gaining valuable insights into modern web development practices.</p>",
-      "technologies": "Featured technologies:"
+      "text2": "<p>During the event, I had my first experience with <a href=\"https://astro.build/\" target=\"_blank\">Astro</a> and learned how to use server components for forms, a feature introduced in React 19. <br /> I also attended sessions on accessibility, AI, and view transitions, gaining valuable insights into modern web development practices.</p>"
     }
   }
 }
