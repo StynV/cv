@@ -7,7 +7,7 @@
   "phoneValue": "tel:+32 496 75 42 60",
   "city": "Merksem",
   "pdf": "PDF version",
-  "intro1": "Hallo! Ik ben een medior frontend developer met een bachelor Toegepaste Informatica. Deze heb ik behaald op KDG. Ik ben vooral gefocust op React, maar heb ook gewerkt met PHP (Symfony), Java en NodeJS.",
+  "intro1": "Hallo! Ik ben een medior frontend developer met een bachelor Toegepaste Informatica. Deze heb ik behaald op KDG. Ik ben vooral gefocust op React, maar heb ook gewerkt met Java, NodeJS & PHP.",
   "intro2": "<p>Ik ben 26 jaar, maar heb al veel ervaring op werk en academisch vlak. Dit in test-driven, agile website development. Ik heb deze vaardigheden bijgeschaafd bij <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
   "intro3": "Ik heb rond 3.5 jaar aan werkervaring.",
   "technologies": {
@@ -73,19 +73,19 @@
       "period": "December 2024 - Februari 2025",
       "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>  is een startup gericht naar architecten. Ik werkte als de enige full-time developer. Hier was ik vooral verantwoordelijk om de website moderner te maken.</p>",
       "text2": "Deze rol was een moeilijke uitdaging waarbij ik een legacy codebase moest aanpassen waar veel ook verantwoordelijkheid aan vasthing.",
-      "text3": "Tijdens mijn periode hier heb ik de codebase aanzienlijk verbeterd, maar het bedrijf had uiteindelijk een developer nodig met diepere PHP-expertise. Ondanks dit, werd mijn werk geapprecieerd en versterkt deze ervaring mijn mogelijkheid om snel aan te passen, zelfstandig werk op te nemen en uitdagingen aan te gaan."
+      "text3": "Zo heb ik meegewerkt aan de herwerking van het opladen van een nieuwe profielfoto, de start van een nieuwe pagina & de start van de herwerking van vertalingen. Ook zaten er natuurlijk een paar bugfixes bij."
     },
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - Augustus 2024",
-      "text1": "<p>Bij <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> heb ik gewerkt als frontend consultant, maar dit was korter dan verwacht omdat het geen goede match bleek te zijn.</p>",
+      "text1": "<p>Bij <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> heb ik gewerkt als frontend consultant aan onderstaande projecten.</p>",
       "beat": {
         "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "Ik heb meegewerkt aan het nieuwe project voor het <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a> voor een maand. Dit is een project waar nog aan gewerkt wordt.</p>"
+        "description": "Mijn eerste project was een website voor het <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. Ik hielp mee aan de opzet van de frontend en de eerste componenten.</p>"
       },
       "beamery": {
         "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
-        "description": "<p>Ik heb meegeholpen aan de redesign van <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website alsdeel van een klein team.</p>"
+        "description": "<p>Ik heb meegeholpen aan de redesign van <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website. Hier leverde ik een paar componenten op die UI & UX verbeterden.</p>"
       },
       "troubleshootingPage": {
         "title": "POC troubleshooting page",
@@ -99,12 +99,12 @@
     "blockOddball": {
       "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
       "period": "Januari 2023 - November 2023",
-      "text1": "Ik startte in deze agency als deel van een team van 4 mensen. Uiteindelijk moest ik het werk alleen doen. Hier kon ik me niet alleen specialiseren in React maar hier kreeg ik ook ervaring in het deployen van websites op Google Cloud.",
-      "text2": "Ik heb deze 3 websites van begin tot eind mee ontwikkeld, met focus op hoge prestaties en een optimale gebruikerservaring.",
+      "text1": "Ik startte in deze agency als deel van een team van 4 developers met 1 teamlead, maar nam tegen het einde de verantwoordelijkheid op om het team alleen te leiden.",
+      "text2": "Onze focus was het volledig zelf maken van volwaardige websites van begin tot einde. Dit was ook mijn eerste echte ervaring in het releasen van websites via Google Cloud.",
       "keyProjects": "Belangrijke projecten",
       "tvc": {
         "title": "TheValueChain",
-        "description": "<p>Wij hadden een website gemaakt voor het grootste bedrijf van <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>. Hiervoor maakten we gebruik van herbruikbare componenten, hebben we bugs gefixt en na de launch nieuwe features toegepast.</p>"
+        "description": "<p>Ons team had een website gemaakt voor het grootste bedrijf van <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>.  Hiervoor hebben we herbruikbare componenten gemaakt, feedback van de klant toegpast en de launch voorzien.</p>"
       },
       "brightest": {
         "title": "Brightest",
@@ -128,7 +128,7 @@
     "blockInternship": {
       "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Stage icapps</a></h2>",
       "period": "April 2020 - Juni 2020",
-      "text": "Ik heb mijn opleiding beëindigd met een stage bij deze agency. Hier werkte ik in duo aan een website op basis van een CMS voor een meubelwinkel.",
+      "text": "Ik heb mijn academische opleiding beëindigd met een stage van 8 weken bij deze agency. Hier werkte ik in duo aan een website op basis van een CMS voor een meubelwinkel.",
       "text2": "Als deel van het team kregen we frontend en backend hulp wanneer dit nodig was. Het project volgde een agile workflow met klantdemo’s op een schema om te zorgen dat alles was zoals gewenst."
     }
   },
@@ -160,7 +160,7 @@
       "text4": "Een feedback form",
       "text5": "Een dynamisch grid met randomized tiles",
       "text6": "Een foto-gallerij met een slider en Instagram integratie",
-      "text7": "<p>Je vindt de source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">hier</a></p>",
+      "text7": "<p>Je vindt de source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">hier</a></p> op mijn github-profiel.",
       "technologies": "Gebruikte technologieen:"
     },
     "block2": {

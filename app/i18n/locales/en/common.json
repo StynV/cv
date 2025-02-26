@@ -7,7 +7,7 @@
   "phoneValue": "tel:+32 496 75 42 60",
   "city": "Merksem",
   "pdf": "PDF version",
-  "intro1": "Hi! I'm a medior frontend with a bachelor's degree in Applied Informatics from KDG. I'm mainly focused on React, but have also worked with PHP (Symfony), Java and NodeJS before.",
+  "intro1": "Hi! I'm a medior frontend with a bachelor's degree in Applied Informatics from KDG. I'm mainly focused on React, but have also worked with Java, NodeJS & PHP before.",
   "intro2": "<p>At 26, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
   "intro3": "I have around 3.5 years of working experience.",
   "technologies": {
@@ -73,15 +73,15 @@
       "period": "December 2024 - February 2025",
       "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a> is a startup aimed at architects. As the sole full-time developer,I was responsible for modernizing the application.</p>",
       "text2": "This role challenged me to expand my technical skills, particularly in handling a complex legacy codebase with a lot of responsability.",
-      "text3": "At Calqi, I contributed to modernizing the application, improving its maintainability and performance. While the company required deeper PHP expertise, they valued my contributions and the improvements I implemented. This experience strengthened my ability to quickly adapt, work independently, and take ownership of technical challenges."
+      "text3": "I contributed at the rewrite of how to upload a profile picture, started on a new page & also helped on the rewrite of translations. Of course there were also some bugfixes involved."
     },
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - August 2024",
-      "text1": "<p>I worked at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend developer. However, this was shortlived due to this job not being a complete match after all.</p>",
+      "text1": "<p>I worked at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend on these projects.</p>",
       "beat": {
         "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "<p>I contributed to a new project for the company behind the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>, working on development for a month. The project is still in progress.</p>"
+        "description": "<p>My first project was a website for the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. I helped on the setup of the frontend and it’s components.</p>"
       },
       "beamery": {
         "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
@@ -99,8 +99,8 @@
     "blockOddball": {
       "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
       "period": "January 2023 - November 2023",
-      "text1": "I started as part of a four-member team and eventually took on the responsibility of leading the team independently. Specializing in React development, I also gained experience deploying websites on Google Cloud.",
-      "text2": "I co-developed 3 websites from scratch, seeing them through to completion, ensuring high performance and user-friendly experiences.",
+      "text1": "I started as part of a 4-member team with 1 teamlead and eventually took on the responsibility of leading the team independently.",
+      "text2": "Our focus was the complete custom development of complex websites from concept until release. This was also my first real experience in releasing websites using Google Cloud.",
       "keyProjects": "Key Projects",
       "tvc": {
         "title": "TheValueChain",

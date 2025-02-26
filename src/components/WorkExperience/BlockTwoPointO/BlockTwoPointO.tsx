@@ -19,10 +19,6 @@ const BlockTwoPointO = async ({ lng }: { lng: string }) => {
         className={`${styles.text} ${styles.textIntro}`}
       />
 
-      <h2 className={styles.blockTitle}>
-        {t('workExperience.blockOddball.keyProjects')}
-      </h2>
-
       <YGWYS
         html={t('workExperience.blockTwoPointO.beat.title')}
         className={styles.linkTitle}
