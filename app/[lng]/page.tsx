@@ -16,7 +16,7 @@ export default async function Home({
   return (
     <main className={styles.main}>
       <Header lng={lng} />
-      <LanguageSwitcher />
+      <LanguageSwitcher currentLng={lng} />
       <Intro lng={lng} />
       <WorkExperience lng={lng} />
       <Education lng={lng} />

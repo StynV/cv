@@ -6,37 +6,36 @@ import { usePathname, useRouter } from 'next/navigation'
 import styles from './language-switcher.module.scss'
 
 const languages = {
-  en: 'English',
   nl: 'Nederlands',
+  en: 'English',
 }
 
-const LanguageSwitcher = () => {
+const LanguageSwitcher = ({ currentLng }: { currentLng: string }) => {
   const router = useRouter()
   const pathName = usePathname()
   const [isPending, startTransition] = useTransition()
 
-  const currentLang =
-    Object.keys(languages).find(lng => pathName.startsWith(`/${lng}`)) || 'en'
+  const otherLng = Object.entries(languages).find(([lng, label]) => {
+    if (lng !== currentLng) return { label }
+  })
 
-  const changeLanguage = (lng: string) => {
+  const changeLanguage = () => {
     startTransition(() => {
-      router.push(`/${lng}${pathName.replace(/^\/(en|nl)/, '')}`)
+      router.push(
+        `/${otherLng && otherLng[0]}${pathName.replace(/^\/(en|nl)/, '')}`
+      )
     })
   }
 
   return (
     <section className={styles.main}>
-      <select
-        onChange={e => changeLanguage(e.target.value)}
+      <button
+        onClick={changeLanguage}
         disabled={isPending}
         className={styles.select}
       >
-        {Object.entries(languages).map(([lng, label]) => (
-          <option key={lng} value={lng}>
-            {label}
-          </option>
-        ))}
-      </select>
+        {otherLng && otherLng[1]}
+      </button>
     </section>
   )
 }
