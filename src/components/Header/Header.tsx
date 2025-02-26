@@ -63,14 +63,25 @@ const Header = async ({ lng }: { lng: string }) => {
         </div>
 
         <div>
-          <Reveal>
-            <a
-              href="https://drive.google.com/file/d/1MTkr2vn6RY9V5cen7KNYOGEroSqyxkQa/view?usp=sharing"
-              target="_blank"
-            >
-              <h6 className={styles.city}>{t('pdf')}</h6>
-            </a>
-          </Reveal>
+          {lng === 'nl' ? (
+            <Reveal>
+              <a
+                href="https://drive.google.com/file/d/1eeVEVpHofntyq13n3b_kxhXu5gH4ZxaI/view?usp=sharing"
+                target="_blank"
+              >
+                <h6 className={styles.city}>{t('pdf')}</h6>
+              </a>
+            </Reveal>
+          ) : (
+            <Reveal>
+              <a
+                href="https://drive.google.com/file/d/1MTkr2vn6RY9V5cen7KNYOGEroSqyxkQa/view?usp=sharing"
+                target="_blank"
+              >
+                <h6 className={styles.city}>{t('pdf')}</h6>
+              </a>
+            </Reveal>
+          )}
         </div>
       </div>
     </header>
