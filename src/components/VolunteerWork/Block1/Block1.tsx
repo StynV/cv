@@ -10,7 +10,10 @@ const Block1 = async ({ lng }: { lng: string }) => {
   const { t } = await useTranslation(lng)
 
   return (
-    <Block title={t('volunteerWork.block1.title')}>
+    <Block
+      title={t('volunteerWork.block1.title')}
+      period={t('volunteerWork.block1.period')}
+    >
       <p className={styles.text}>{t('volunteerWork.block1.text')}</p>
       <p className={styles.text}>{t('volunteerWork.block1.text2')}</p>
       <p className={styles.text}>{t('volunteerWork.block1.text3')}</p>
