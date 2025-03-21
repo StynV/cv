@@ -144,7 +144,8 @@
     "block2": {
       "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
       "text1": "To keep pace with the latest technologies, I have successfully completed three courses on Udemy, earning certificates upon completion.",
-      "technologies": "Featured technologies:",
+      "courses": "Courses:",
+      "react-native": "React Native (March 2025)",
       "react": "React (April 2022)",
       "vue": "Vue (August 2021)",
       "aws": "AWS (October 2020)"

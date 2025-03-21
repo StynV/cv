@@ -144,7 +144,8 @@
     "block2": {
       "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
       "text1": "Om bij te blijven met de laatste technologieën, heb ik 3 cursussen succesvol doorbracht op Udemy. Hiervoor kreeg ik telkens een certificaat.",
-      "technologies": "Technologiëen:",
+      "courses": "Cursussen:",
+      "react-native": "React Native (Maart 2025)",
       "react": "React (April 2022)",
       "vue": "Vue (Augustus 2021)",
       "aws": "AWS (Oktober 2020)"

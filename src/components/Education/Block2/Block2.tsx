@@ -11,7 +11,8 @@ const Block2 = async ({ lng }: { lng: string }) => {
     <Block title={t('education.block2.title')}>
       <p className={styles.text}>{t('education.block2.text1')}</p>
 
-      <h2>{t('education.block2.technologies')}</h2>
+      <h2>{t('education.block2.courses')}</h2>
+      <h3 className={styles.linkTitle}>{t('education.block2.react-native')}</h3>
       <h3 className={styles.linkTitle}>{t('education.block2.react')}</h3>
       <h3 className={styles.linkTitle}>{t('education.block2.vue')}</h3>
       <h3 className={styles.linkTitle}>{t('education.block2.aws')}</h3>
