@@ -137,13 +137,13 @@
     "block1": {
       "title": "<h2><a href=\"https://www.kdg.be/toegepaste-informatica/\" target=\"_blank\">KDG</a></h2>",
       "period": "2017 - 2020",
-      "text1": "Bachelor diploma in Toegepaste Informatica, Karel de Grotehogeschool",
+      "text1": "Bachelor diploma in Toegepaste Informatica, Karel de Grote hogeschool",
       "text2": "Ik ben afgestudeerd met een focus op agile software development, met ook ervaring in werken in een team.",
       "technologies": "Geleerde technologieën:"
     },
     "block2": {
       "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
-      "text1": "Om bij te blijven met de laatste technologieën, heb ik 3 cursussen succesvol doorbracht op Udemy. Hiervoor kreeg ik telkens een certificaat.",
+      "text1": "Om bij te blijven met de laatste technologieën, heb ik 4 cursussen succesvol doorbracht op Udemy. Hiervoor kreeg ik telkens een certificaat.",
       "courses": "Cursussen:",
       "react-native": "React Native (Maart 2025)",
       "react": "React (April 2022)",
@@ -162,7 +162,7 @@
       "text4": "Een feedback form",
       "text5": "Een dynamisch grid met randomized tiles",
       "text6": "Een foto-gallerij met een slider en Instagram integratie",
-      "text7": "<p>Je vindt de source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">hier</a></p> op mijn github-profiel.",
+      "text7": "<p>Je vindt de source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">hier</a> op mijn github-profiel.</p>",
       "technologies": "Gebruikte technologieen:"
     },
     "block2": {
