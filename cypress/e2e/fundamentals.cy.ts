@@ -1,6 +1,6 @@
 describe('Fundamentals spec', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visit('/nl')
   })
 
   it('Contains correct header text', () => {

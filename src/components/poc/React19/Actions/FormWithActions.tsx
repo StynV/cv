@@ -62,7 +62,7 @@ const FormWithActions = () => {
 
   return (
     <div className={styles.main}>
-      <form action={formAction}>
+      <form action={formAction} data-test="form-action">
         <label>
           <p>Naam van het bedrijf:</p>
           <input type="text" name="name" required />
@@ -78,7 +78,9 @@ const FormWithActions = () => {
           </select>
         </label>
 
-        <button type="submit">Update</button>
+        <button type="submit" data-test="form-submit">
+          Update
+        </button>
       </form>
 
       <p>Gesolliciteerd zonder reactie: {companiesWithGEEN_REACTIE}</p>
