@@ -20,7 +20,9 @@ const Header = async ({ lng }: { lng: string }) => {
 
       <div className={styles.text}>
         <Reveal>
-          <h1 className={styles.title}>{t('name')}</h1>
+          <h1 className={styles.title} data-test="header-title">
+            {t('name')}
+          </h1>
         </Reveal>
         <Reveal>
           <h2 className={styles.function}>{t('function')}</h2>

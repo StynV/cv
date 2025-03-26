@@ -1,5 +1,19 @@
 describe('Fundamentals spec', () => {
-  it('passes', () => {
-    cy.visit('http://localhost:3000')
+  it('Contains correct header text', () => {
+    cy.visit('/nl')
+
+    cy.get('[data-test="header-title"]').contains(/Styn Vercauteren/i)
+    cy.get('[data-test="header-title"]').should(
+      'contain.text',
+      'Styn Vercauteren'
+    )
+  })
+
+  it('Item looks correct', () => {
+    cy.visit('/nl')
+
+    cy.contains(/Hi!/i).should('not.exist')
+    cy.get('[data-test="language-button"]').click()
+    cy.contains(/Hi!/i).should('be.visible')
   })
 })

@@ -33,6 +33,7 @@ const LanguageSwitcher = ({ currentLng }: { currentLng: string }) => {
         onClick={changeLanguage}
         disabled={isPending}
         className={styles.select}
+        data-test="language-button"
       >
         {otherLng && otherLng[1]}
       </button>
