@@ -78,6 +78,10 @@ query MyQuery {
     dxcFdsText1(locale: ${lng})
     dxcFdsText2(locale: ${lng})
     dxcFdsText3
+    internshipIcappsTitle(locale: ${lng})
+    internshipIcappsPeriod(locale: ${lng})
+    internshipIcappsText(locale: ${lng})
+    internshipIcappsText2(locale: ${lng})
   }
 }
 `

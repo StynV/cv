@@ -31,4 +31,8 @@ export interface WorkExperienceData {
   dxcFdsText1: string
   dxcFdsText2: string
   dxcFdsText3: string
+  internshipIcappsTitle: string
+  internshipIcappsPeriod: string
+  internshipIcappsText: string
+  internshipIcappsText2: string
 }

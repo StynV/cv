@@ -61,12 +61,6 @@
     "blockOddball": {
       "technologies": "All of these websites use these technologies:",
       "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
-    },
-    "blockInternship": {
-      "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Internship icapps</a></h2>",
-      "period": "April 2020 - June 2020",
-      "text": "I concluded my academic journey with an 8-week internship at an agency, where I worked in a duo to develop a CMS-based website for a furniture store.",
-      "text2": "As part of the team, we received frontend and backend support when needed. The project followed an agile workflow, including regular client demos to ensure alignment with their needs."
     }
   },
   "education": {

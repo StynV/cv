@@ -61,12 +61,6 @@
     "blockOddball": {
       "technologies": "Deze websites gebruiken deze technologieën:",
       "responsibility": "Het was ook mijn verantwoordelijkheid voor de go-live. Dit hield in het deployen van de site & DNS configureren."
-    },
-    "blockInternship": {
-      "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Stage icapps</a></h2>",
-      "period": "April 2020 - Juni 2020",
-      "text": "Ik heb mijn academische opleiding beëindigd met een stage van 8 weken bij deze agency. Hier werkte ik in duo aan een website op basis van een CMS voor een meubelwinkel.",
-      "text2": "Als deel van het team kregen we frontend en backend hulp wanneer dit nodig was. Het project volgde een agile workflow met klantdemo’s op een schema om te zorgen dat alles was zoals gewenst."
     }
   },
   "education": {

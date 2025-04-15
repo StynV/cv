@@ -1,20 +1,29 @@
 import { useTranslation } from '@app/i18n'
 
+import { WorkExperienceData } from '@/models/workExperienceData'
+
 import Block from '../../Block/Block'
 
 import styles from './block-internship.module.scss'
 
-const BlockInternship = async ({ lng }: { lng: string }) => {
+const BlockInternship = async ({
+  lng,
+  workExperienceData,
+}: {
+  lng: string
+  workExperienceData: WorkExperienceData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <Block
-      title={t('workExperience.blockInternship.title')}
-      period={t('workExperience.blockInternship.period')}
+      title={workExperienceData.internshipIcappsTitle}
+      period={workExperienceData.internshipIcappsPeriod}
     >
-      <p className={styles.text}>{t('workExperience.blockInternship.text')}</p>
-      <p className={styles.text}>{t('workExperience.blockInternship.text2')}</p>
-      <h2>{t('workExperience.blockDXC.technologies')}</h2>
+      <p className={styles.text}>{workExperienceData.internshipIcappsText}</p>
+      <p className={styles.text}>{workExperienceData.internshipIcappsText2}</p>
+
+      <h2>{t('technologies.title')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
       <h3 className={styles.linkTitle}>{t('technologies.nextjs')}</h3>
       <h3 className={styles.linkTitle}>{t('technologies.backend')}</h3>

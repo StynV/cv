@@ -31,7 +31,7 @@ const WorkExperience = async ({
       <BlockTwoPointO lng={lng} workExperienceData={workExperienceData} />
       <BlockOddball lng={lng} workExperienceData={workExperienceData} />
       <BlockDXC lng={lng} workExperienceData={workExperienceData} />
-      <BlockInternship lng={lng} />
+      <BlockInternship lng={lng} workExperienceData={workExperienceData} />
     </article>
   )
 }
