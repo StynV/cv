@@ -1,48 +1,57 @@
 import { useTranslation } from '@app/i18n'
 import Image from 'next/image'
 
+import { HeaderData } from '@/models/headerData'
+
 import Reveal from '../poc/Reveal/Reveal'
 
 import styles from './header.module.scss'
 
-const Header = async ({ lng }: { lng: string }) => {
+const Header = async ({
+  lng,
+  headerData,
+}: {
+  lng: string
+  headerData: HeaderData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <header className={styles.header}>
       <Image
-        src="https://drive.google.com/uc?export=view&id=1BPxIJsPL8Fbdo9bPdgBIxE7DtNlEA0e_"
-        alt="My image"
+        src={headerData.headerImage.url}
+        alt={headerData.headerImage.alt}
         width={200}
         height={300}
+        priority
         className={styles.img}
       />
 
-      <div className={styles.text}>
+      <section className={styles.text}>
         <Reveal>
           <h1 className={styles.title} data-test="header-title">
-            {t('name')}
+            {headerData.name}
           </h1>
         </Reveal>
         <Reveal>
-          <h2 className={styles.function}>{t('function')}</h2>
+          <h2 className={styles.function}>{headerData.function}</h2>
         </Reveal>
 
-        <div>
+        <article>
           <Reveal>
-            <a href={t('mailValue')}>
-              <h3 className={styles.mail}>{t('mailLabel')}</h3>
+            <a href={headerData.mailValue}>
+              <h3 className={styles.mail}>{headerData.mailLabel}</h3>
             </a>
           </Reveal>
 
           <Reveal>
-            <a href={t('phoneValue')}>
-              <h4 className={styles.phone}>{t('phoneLabel')}</h4>
+            <a href={headerData.phoneValue}>
+              <h4 className={styles.phone}>{headerData.phoneLabel}</h4>
             </a>
           </Reveal>
           <Reveal>
             <a
-              href="https://www.linkedin.com/in/styn-vercauteren-96918018b/"
+              href={headerData.linkedinLink}
               target="_blank"
               rel="noreferrer"
               itemProp="author"
@@ -56,36 +65,22 @@ const Header = async ({ lng }: { lng: string }) => {
               />
             </a>
           </Reveal>
-        </div>
+        </article>
 
-        <div>
+        <article>
           <Reveal>
-            <h5 className={styles.city}>{t('city')}</h5>
+            <h5 className={styles.city}>{headerData.city}</h5>
           </Reveal>
-        </div>
+        </article>
 
-        <div>
-          {lng === 'nl' ? (
-            <Reveal>
-              <a
-                href="https://drive.google.com/file/d/1eeVEVpHofntyq13n3b_kxhXu5gH4ZxaI/view?usp=sharing"
-                target="_blank"
-              >
-                <h6 className={styles.city}>{t('pdf')}</h6>
-              </a>
-            </Reveal>
-          ) : (
-            <Reveal>
-              <a
-                href="https://drive.google.com/file/d/1MTkr2vn6RY9V5cen7KNYOGEroSqyxkQa/view?usp=sharing"
-                target="_blank"
-              >
-                <h6 className={styles.city}>{t('pdf')}</h6>
-              </a>
-            </Reveal>
-          )}
-        </div>
-      </div>
+        <article>
+          <Reveal>
+            <a href={headerData.pdfLink} target="_blank">
+              <h6 className={styles.city}>{t('pdf')}</h6>
+            </a>
+          </Reveal>
+        </article>
+      </section>
     </header>
   )
 }
