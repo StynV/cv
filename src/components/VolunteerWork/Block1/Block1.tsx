@@ -1,27 +1,34 @@
 import { useTranslation } from '@app/i18n'
 
 import YGWYS from '@/components/YGWYS/YGWYS'
+import { VolunteerWorkData } from '@/models/volunteerWorkData'
 
 import Block from '../../Block/Block'
 
 import styles from './block1.module.scss'
 
-const Block1 = async ({ lng }: { lng: string }) => {
+const Block1 = async ({
+  lng,
+  volunteerWorkData,
+}: {
+  lng: string
+  volunteerWorkData: VolunteerWorkData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <Block
-      title={t('volunteerWork.block1.title')}
-      period={t('volunteerWork.block1.period')}
+      title={volunteerWorkData.iamTitle}
+      period={volunteerWorkData.iamPeriod}
     >
-      <p className={styles.text}>{t('volunteerWork.block1.text')}</p>
-      <p className={styles.text}>{t('volunteerWork.block1.text2')}</p>
-      <p className={styles.text}>{t('volunteerWork.block1.text3')}</p>
-      <p className={styles.text}>{t('volunteerWork.block1.text4')}</p>
-      <p className={styles.text}>{t('volunteerWork.block1.text5')}</p>
-      <p className={styles.text}>{t('volunteerWork.block1.text6')}</p>
+      <p className={styles.text}>{volunteerWorkData.iamText}</p>
+      <p className={styles.text}>{volunteerWorkData.iamText2}</p>
+      <p className={styles.text}>{volunteerWorkData.iamText3}</p>
+      <p className={styles.text}>{volunteerWorkData.iamText4}</p>
+      <p className={styles.text}>{volunteerWorkData.iamText5}</p>
+      <p className={styles.text}>{volunteerWorkData.iamText6}</p>
 
-      <YGWYS html={t('volunteerWork.block1.text7')} className={styles.text} />
+      <YGWYS html={volunteerWorkData.iamText7} className={styles.text} />
 
       <h2>{t('volunteerWork.block1.technologies')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>

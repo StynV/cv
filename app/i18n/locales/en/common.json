@@ -68,18 +68,6 @@
   },
   "volunteerWork": {
     "title": "Personal Projects",
-    "block1": {
-      "title": "<h2><a href=\"https://www.iam-artmagazine.be/\" target=\"_blank\">Independent Art Magazine</a></h2>",
-      "period": "March 2024 - current",
-      "text": "Galerij Artisjok in Lier asked me to create a website for their newest magazine. I took on this project in my free time, developing it independently using only non-paid services.",
-      "text2": "The website features:",
-      "text3": "A frontend integrated with a CMS for easy content management",
-      "text4": "A feedback form",
-      "text5": "A dynamic grid with randomized tile",
-      "text6": "A photo gallery with a slider and Instagram integration",
-      "text7": "<p>You can find the source code <a href=\"https://github.com/StynV/artisjok\" target=\"_blank\">here</a> on my Github profile.</p>",
-      "technologies": "Featured technologies:"
-    },
     "block2": {
       "title": "<h2><a href=\"https://www.react.brussels/\" target=\"_blank\">React Brussels</a></h2>",
       "text": "I had the opportunity to volunteer at React Brussels, which allowed me to connect with many skilled professionals and attend insightful talks and workshops.",

@@ -103,3 +103,19 @@ query MyQuery {
   }  
 }
 `
+
+export const HOME_PAGE_VOLUNTEER_WORK_QUERY = (lng: string) => `
+query MyQuery {
+  page {
+    iamTitle
+    iamPeriod(locale: ${lng})
+    iamText(locale: ${lng})
+    iamText2(locale: ${lng})
+    iamText3(locale: ${lng})
+    iamText4(locale: ${lng})
+    iamText5(locale: ${lng})
+    iamText6(locale: ${lng})
+    iamText7(locale: ${lng})
+  }
+}
+`
