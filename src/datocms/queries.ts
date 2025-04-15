@@ -85,3 +85,14 @@ query MyQuery {
   }
 }
 `
+
+export const HOME_PAGE_EDUCATION_QUERY = (lng: string) => `
+query MyQuery {
+  page {
+    kdgTitle
+    kdgPeriod
+    kdgText1(locale: ${lng})
+    kdgText2(locale: ${lng})
+  }  
+}
+`

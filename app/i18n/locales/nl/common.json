@@ -65,13 +65,6 @@
   },
   "education": {
     "title": "Opleiding",
-    "block1": {
-      "title": "<h2><a href=\"https://www.kdg.be/toegepaste-informatica/\" target=\"_blank\">KDG</a></h2>",
-      "period": "2017 - 2020",
-      "text1": "Bachelor diploma in Toegepaste Informatica, Karel de Grote hogeschool",
-      "text2": "Ik ben afgestudeerd met een focus op agile software development, met ook ervaring in werken in een team.",
-      "technologies": "Geleerde technologieën:"
-    },
     "block2": {
       "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
       "text1": "Om bij te blijven met de laatste technologieën, heb ik 4 cursussen succesvol doorbracht op Udemy. Hiervoor kreeg ik telkens een certificaat.",

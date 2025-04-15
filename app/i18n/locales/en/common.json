@@ -65,13 +65,6 @@
   },
   "education": {
     "title": "Education",
-    "block1": {
-      "title": "<h2><a href=\"https://www.kdg.be/toegepaste-informatica/\" target=\"_blank\">KDG</a></h2>",
-      "period": "2017 - 2020",
-      "text1": "Bachelor's Degree in Applied Informatics, Karel de Grote hogeschool",
-      "text2": "I graduated with a focus on agile software development methodologies, gaining valuable experience in teamwork and professional software development.",
-      "technologies": "Learnt technologies:"
-    },
     "block2": {
       "title": "<h2><a href=\"https://www.udemy.com/\" target=\"_blank\">Udemy</a></h2>",
       "text1": "To keep pace with the latest technologies, I have successfully completed 4 courses on Udemy, earning certificates upon completion.",

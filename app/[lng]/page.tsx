@@ -7,10 +7,12 @@ import VolunteerWork from '@/components/VolunteerWork/VolunteerWork'
 import WorkExperience from '@/components/WorkExperience/WorkExperience'
 import { performRequest } from '@/datocms/performRequest'
 import {
+  HOME_PAGE_EDUCATION_QUERY,
   HOME_PAGE_HEADER_QUERY,
   HOME_PAGE_INTRO_QUERY,
   HOME_PAGE_WORK_EXPERIENCE_QUERY,
 } from '@/datocms/queries'
+import { EducationData } from '@/models/educationData'
 import { HeaderData } from '@/models/headerData'
 import { IntroData } from '@/models/introData'
 import { WorkExperienceData } from '@/models/workExperienceData'
@@ -40,13 +42,19 @@ export default async function Home({
     query: HOME_PAGE_WORK_EXPERIENCE_QUERY(lng),
   })
 
+  const {
+    data: { page: educationData },
+  } = await performRequest<{ data: { page: EducationData } }>({
+    query: HOME_PAGE_EDUCATION_QUERY(lng),
+  })
+
   return (
     <main className={styles.main}>
       <Header lng={lng} headerData={headerData} />
       <LanguageSwitcher currentLng={lng} />
       <Intro lng={lng} introData={introData} />
       <WorkExperience lng={lng} workExperienceData={workExperienceData} />
-      <Education lng={lng} />
+      <Education lng={lng} educationData={educationData} />
       <VolunteerWork lng={lng} />
       <Footer />
     </main>
