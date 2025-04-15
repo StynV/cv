@@ -1,28 +1,35 @@
 import { useTranslation } from '@app/i18n'
 
 import YGWYS from '@/components/YGWYS/YGWYS'
+import { WorkExperienceData } from '@/models/workExperienceData'
 
 import Block from '../../Block/Block'
 
 import styles from './block-calqi.module.scss'
 
-const BlockCalqi = async ({ lng }: { lng: string }) => {
+const BlockCalqi = async ({
+  lng,
+  workExperienceData,
+}: {
+  lng: string
+  workExperienceData: WorkExperienceData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <Block
-      title={t('workExperience.blockCalqi.title')}
-      period={t('workExperience.blockCalqi.period')}
+      title={workExperienceData.calqiTitle}
+      period={workExperienceData.calqiPeriod}
     >
       <YGWYS
-        html={t('workExperience.blockCalqi.text1')}
+        html={workExperienceData.calqiText1}
         className={`${styles.text} ${styles.textIntro}`}
       />
       <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockCalqi.text2')}
+        {workExperienceData.calqiText2}
       </p>
       <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockCalqi.text3')}
+        {workExperienceData.calqiText3}
       </p>
 
       <h2>{t('technologies.title')}</h2>

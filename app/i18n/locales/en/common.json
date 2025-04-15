@@ -58,13 +58,6 @@
   },
   "workExperience": {
     "title": "Work experience",
-    "blockCalqi": {
-      "title": "<h2><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a></h2>",
-      "period": "December 2024 - February 2025",
-      "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a> is a startup aimed at architects. As the sole full-time developer,I was responsible for modernizing the application.</p>",
-      "text2": "This role challenged me to expand my technical skills, particularly in handling a complex legacy codebase with a lot of responsability.",
-      "text3": "I contributed at the rewrite of how to upload a profile picture, started on a new page & also helped on the rewrite of translations. Of course there were also some bugfixes involved."
-    },
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - August 2024",

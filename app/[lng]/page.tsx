@@ -9,9 +9,11 @@ import { performRequest } from '@/datocms/performRequest'
 import {
   HOME_PAGE_HEADER_QUERY,
   HOME_PAGE_INTRO_QUERY,
+  HOME_PAGE_WORK_EXPERIENCE_QUERY,
 } from '@/datocms/queries'
 import { HeaderData } from '@/models/headerData'
 import { IntroData } from '@/models/introData'
+import { WorkExperienceData } from '@/models/workExperienceData'
 
 import styles from './page.module.css'
 
@@ -32,12 +34,18 @@ export default async function Home({
     query: HOME_PAGE_INTRO_QUERY(lng),
   })
 
+  const {
+    data: { page: workExperienceData },
+  } = await performRequest<{ data: { page: WorkExperienceData } }>({
+    query: HOME_PAGE_WORK_EXPERIENCE_QUERY(lng),
+  })
+
   return (
     <main className={styles.main}>
       <Header lng={lng} headerData={headerData} />
       <LanguageSwitcher currentLng={lng} />
       <Intro lng={lng} introData={introData} />
-      <WorkExperience lng={lng} />
+      <WorkExperience lng={lng} workExperienceData={workExperienceData} />
       <Education lng={lng} />
       <VolunteerWork lng={lng} />
       <Footer />

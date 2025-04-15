@@ -1,5 +1,7 @@
 import { useTranslation } from '@app/i18n'
 
+import { WorkExperienceData } from '@/models/workExperienceData'
+
 import BlockDXC from './BlockDXC/BlockDXC'
 import BlockInternship from './BlockInternship/BlockInternship'
 import BlockOddball from './BlockOddball/BlockOddball'
@@ -8,7 +10,13 @@ import BlockCalqi from './Calqi/BlockCalqi'
 
 import styles from './work-experience.module.scss'
 
-const WorkExperience = async ({ lng }: { lng: string }) => {
+const WorkExperience = async ({
+  lng,
+  workExperienceData,
+}: {
+  lng: string
+  workExperienceData: WorkExperienceData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
@@ -19,7 +27,7 @@ const WorkExperience = async ({ lng }: { lng: string }) => {
     >
       <h1 className={styles.title}>{t('workExperience.title')}</h1>
 
-      <BlockCalqi lng={lng} />
+      <BlockCalqi workExperienceData={workExperienceData} lng={lng} />
       <BlockTwoPointO lng={lng} />
       <BlockOddball lng={lng} />
       <BlockDXC lng={lng} />

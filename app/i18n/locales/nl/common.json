@@ -58,13 +58,6 @@
   },
   "workExperience": {
     "title": "Werkervaring",
-    "blockCalqi": {
-      "title": "<h2><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a></h2>",
-      "period": "December 2024 - Februari 2025",
-      "text1": "<p><a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>  is een startup gericht naar architecten. Ik werkte als de enige full-time developer. Hier was ik vooral verantwoordelijk om de website moderner te maken.</p>",
-      "text2": "Deze rol was een moeilijke uitdaging waarbij ik een legacy codebase moest aanpassen waar veel ook verantwoordelijkheid aan vasthing.",
-      "text3": "Zo heb ik meegewerkt aan de herwerking van het opladen van een nieuwe profielfoto, de start van een nieuwe pagina & de start van de herwerking van vertalingen. Ook zaten er natuurlijk een paar bugfixes bij."
-    },
     "blockTwoPointO": {
       "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
       "period": "April 2024 - Augustus 2024",

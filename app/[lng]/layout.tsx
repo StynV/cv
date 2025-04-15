@@ -27,7 +27,7 @@ export async function generateMetadata({
   const {
     data: { _site: siteData, page: pageData },
   } = await performRequest<{ data: { _site: SiteData; page: SEOData } }>({
-    query: SEO_QUERY(lng),
+    query: SEO_QUERY,
   })
 
   return {
