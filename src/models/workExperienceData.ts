@@ -26,4 +26,9 @@ export interface WorkExperienceData {
   oddballBrightestDescription: string
   oddballLincTitle: string
   oddballLincDescription: string
+  dxcFdsTitle: string
+  dxcFdsPeriod: string
+  dxcFdsText1: string
+  dxcFdsText2: string
+  dxcFdsText3: string
 }

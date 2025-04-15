@@ -73,6 +73,11 @@ query MyQuery {
     oddballBrightestDescription(locale: ${lng})
     oddballLincTitle
     oddballLincDescription(locale: ${lng})
+    dxcFdsTitle
+    dxcFdsPeriod(locale: ${lng})
+    dxcFdsText1(locale: ${lng})
+    dxcFdsText2(locale: ${lng})
+    dxcFdsText3
   }
 }
 `

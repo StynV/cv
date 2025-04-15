@@ -62,14 +62,6 @@
       "technologies": "Deze websites gebruiken deze technologieën:",
       "responsibility": "Het was ook mijn verantwoordelijkheid voor de go-live. Dit hield in het deployen van de site & DNS configureren."
     },
-    "blockDXC": {
-      "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
-      "period": "September 2020 - December 2022",
-      "text1": "<p>Mijn eerste betaalde werkervaring was als consultant voor de Vlaamse Overheid. Mijn eerste jaar heb ik besteed aan het moderniseren van het <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a>. Dit is de interne autorisatie-tool. Dit deden we door legacy code om te zetten naar microservices, wat de schaalbaarheid en onderhoudbaarheid verbeterde.</p>",
-      "text2": "<p>Voor Departement Omgeving heb ik mee het <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> gemaakt. Dit is een publieke website gemaakt waar je op een map kunt zien welke projecten in de buurt bezig zijn.</p>",
-      "text3": "Initieel werkte ik aan de backend als deel van een team van 5 mensen, maar later focuste ik mij meer op de frontend samen met een senior developer.",
-      "technologies": "Gebruikte technologieën:"
-    },
     "blockInternship": {
       "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Stage icapps</a></h2>",
       "period": "April 2020 - Juni 2020",

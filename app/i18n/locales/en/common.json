@@ -62,14 +62,6 @@
       "technologies": "All of these websites use these technologies:",
       "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
     },
-    "blockDXC": {
-      "title": "<h2><a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a></h2>",
-      "period": "September 2020 - December 2022",
-      "text1": "<p>My first paid working experience was as a consultant for the Flemish Government. I spent the first year modernizing the <a href=\"https://overheid.vlaanderen.be/producten-diensten/digitaal-gebruikersbeheer-idm\" target=\"_blank\">Gebruikersbeheer</a> which is the internal authorization panel by converting legacy code into microservices, improving maintainability and scalability.</p>",
-      "text2": "<p>After that, I co-developed the <a href=\"https://omgevingsloketinzage.omgeving.vlaanderen.be/\" target=\"_blank\">Inzageloket</a> for Department Omgeving, a public-facing website which enables civilians to view nearby construction projects on a map.</p>",
-      "text3": "I started on the backend in a five-person team before transitioning to frontend development, working closely with a senior developer to enhance UI functionality.",
-      "technologies": "Used technologies:"
-    },
     "blockInternship": {
       "title": "<h2><a href=\"https://icapps.com/\" target=\"_blank\">Internship icapps</a></h2>",
       "period": "April 2020 - June 2020",

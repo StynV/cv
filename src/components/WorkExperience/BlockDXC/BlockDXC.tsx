@@ -1,30 +1,34 @@
 import { useTranslation } from '@app/i18n'
 
 import YGWYS from '@/components/YGWYS/YGWYS'
+import { WorkExperienceData } from '@/models/workExperienceData'
 
 import Block from '../../Block/Block'
 
 import styles from './block-dxc.module.scss'
 
-const BlockDXC = async ({ lng }: { lng: string }) => {
+const BlockDXC = async ({
+  lng,
+  workExperienceData,
+}: {
+  lng: string
+  workExperienceData: WorkExperienceData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <Block
-      title={t('workExperience.blockDXC.title')}
-      period={t('workExperience.blockDXC.period')}
+      title={workExperienceData.dxcFdsTitle}
+      period={workExperienceData.dxcFdsPeriod}
     >
       <YGWYS
-        html={t('workExperience.blockDXC.text1')}
+        html={workExperienceData.dxcFdsText1}
         className={`${styles.text} ${styles.textIntro}`}
       />
-      <YGWYS
-        html={t('workExperience.blockDXC.text2')}
-        className={styles.text}
-      />
-      <p className={styles.text}>{t('workExperience.blockDXC.text3')}</p>
+      <YGWYS html={workExperienceData.dxcFdsText2} className={styles.text} />
+      <p className={styles.text}>{workExperienceData.dxcFdsText3}</p>
 
-      <h2>{t('workExperience.blockDXC.technologies')}</h2>
+      <h2>{t('technologies.title')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
       <h3 className={styles.linkTitle}>{t('technologies.react')}</h3>
       <p>{t('technologies.typescript')}</p>
