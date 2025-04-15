@@ -93,6 +93,13 @@ query MyQuery {
     kdgPeriod
     kdgText1(locale: ${lng})
     kdgText2(locale: ${lng})
+    udemyTitle
+    udemyText1(locale: ${lng})
+    udemyCourses(locale: ${lng})
+    udemyReactNative(locale: ${lng})
+    udemyReact
+    udemyVue(locale: ${lng})
+    udemyAws(locale: ${lng})
   }  
 }
 `
