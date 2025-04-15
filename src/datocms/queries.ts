@@ -17,3 +17,18 @@ query MyQuery {
   }
 }
 `
+export const SEO_QUERY = (lng: string) => `
+query MyQuery {
+  _site {
+    globalSeo {
+      fallbackSeo {
+        description
+        title
+      }
+    }
+  }
+  page {
+    seoKeywords
+  }
+}
+`
