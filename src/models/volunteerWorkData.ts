@@ -8,4 +8,7 @@ export interface VolunteerWorkData {
   iamText5: string
   iamText6: string
   iamText7: string
+  reactBrusselsTitle: string
+  reactBrusselsText: string
+  reactBrusselsText2: string
 }

@@ -116,6 +116,9 @@ query MyQuery {
     iamText5(locale: ${lng})
     iamText6(locale: ${lng})
     iamText7(locale: ${lng})
+    reactBrusselsTitle
+    reactBrusselsText(locale: ${lng})
+    reactBrusselsText2(locale: ${lng})
   }
 }
 `

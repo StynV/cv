@@ -25,7 +25,7 @@ const VolunteerWork = async ({
       <h1 className={styles.title}>{t('volunteerWork.title')}</h1>
 
       <Block1 lng={lng} volunteerWorkData={volunteerWorkData} />
-      <Block2 lng={lng} />
+      <Block2 volunteerWorkData={volunteerWorkData} />
     </article>
   )
 }

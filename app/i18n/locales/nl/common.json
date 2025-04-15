@@ -68,10 +68,6 @@
   },
   "volunteerWork": {
     "title": "Persoonlijke projecten",
-    "block2": {
-      "title": "<h2><a href=\"https://www.react.brussels/\" target=\"_blank\">React Brussels</a></h2>",
-      "text": "Als vrijwilliger bij React Brussels ontmoette ik inspirerende professionals en woonde ik boeiende talks en workshops bij.",
-      "text2": "<p>Tijdens dit event had ik mijn eerste ervaring met <a href=\"https://astro.build/\" target=\"_blank\">Astro</a> en leerde ik te werken met server componenten voor formulieren. Dit is een feature uit React 19. <br />Ook waren er sessies over accessibility, AI en view transitions. Hierdoor kreeg ik meer inzicht in moderne web development practices.</p>"
-    }
+    "technologies": "Gebruikte technologieen:"
   }
 }

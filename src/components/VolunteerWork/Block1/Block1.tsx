@@ -30,7 +30,7 @@ const Block1 = async ({
 
       <YGWYS html={volunteerWorkData.iamText7} className={styles.text} />
 
-      <h2>{t('volunteerWork.block1.technologies')}</h2>
+      <h2>{t('volunteerWork.technologies')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
       <p>{t('technologies.nextjs')}</p>
       <p>{t('technologies.typescript')}</p>
