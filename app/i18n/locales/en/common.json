@@ -1,8 +1,5 @@
 {
   "pdf": "PDF version",
-  "intro1": "Hi! I'm a medior frontend with a bachelor's degree in Applied Informatics from KDG. I'm mainly focused on React, but have also worked with Java, NodeJS & PHP before.",
-  "intro2": "<p>At 27, I've already gained valuable work and academic experience in test-driven, agile website development. I have improved my skills at <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
-  "intro3": "I have around 3.5 years of working experience.",
   "technologies": {
     "title": "Featured technologies",
     "frontend": "Frontend",

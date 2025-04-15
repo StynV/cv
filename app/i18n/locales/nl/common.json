@@ -1,8 +1,5 @@
 {
   "pdf": "PDF versie",
-  "intro1": "Hallo! Ik ben een medior frontend developer met een bachelor Toegepaste Informatica. Deze heb ik behaald op KDG. Ik ben vooral gefocust op React, maar heb ook gewerkt met Java, NodeJS & PHP.",
-  "intro2": "<p>Ik ben 27 jaar, maar heb al veel ervaring op werk en academisch vlak. Dit in test-driven, agile website development. Ik heb deze vaardigheden bijgeschaafd bij <a href=\"https://www.calqi.be/\" target=\"_blank\">Calqi</a>, <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a>, <a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a> and <a href=\"https://www.dxcfds.com/site/\" target=\"_blank\">DXC FDS</a>.</p>",
-  "intro3": "Ik heb rond 3.5 jaar aan werkervaring.",
   "technologies": {
     "title": "Gebruikte technologieën:",
     "frontend": "Frontend",

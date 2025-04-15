@@ -1,26 +1,28 @@
 import Marquee from 'react-fast-marquee'
-import { useTranslation } from '@app/i18n'
+
+import { IntroData } from '@/models/introData'
 
 import YGWYS from '../YGWYS/YGWYS'
 import icons from './icons'
 
 import styles from './intro.module.scss'
 
-const Intro = async ({ lng }: { lng: string }) => {
-  const { t } = await useTranslation(lng)
-
-  const html: string = t('intro2')
-  const html3: string = t('intro3')
-
+const Intro = async ({
+  lng,
+  introData,
+}: {
+  lng: string
+  introData: IntroData
+}) => {
   return (
     <article
       className={styles.intro}
       itemScope
       itemType="https://schema.org/Article"
     >
-      <p className={styles.text}>{t('intro1')}</p>
-      <YGWYS html={html} className={styles.text} />
-      <YGWYS html={html3} className={styles.text} />
+      <p className={styles.text}>{introData.intro1}</p>
+      <YGWYS html={introData.intro2} className={styles.text} />
+      <p className={styles.text}>{introData.intro3}</p>
 
       <Marquee
         autoFill

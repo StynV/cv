@@ -1,3 +1,19 @@
+export const SEO_QUERY = (lng: string) => `
+query MyQuery {
+  _site {
+    globalSeo {
+      fallbackSeo {
+        description
+        title
+      }
+    }
+  }
+  page {
+    seoKeywords
+  }
+}
+`
+
 export const HOME_PAGE_HEADER_QUERY = (lng: string) => `
 query MyQuery {
   page {
@@ -17,18 +33,12 @@ query MyQuery {
   }
 }
 `
-export const SEO_QUERY = (lng: string) => `
+export const HOME_PAGE_INTRO_QUERY = (lng: string) => `
 query MyQuery {
-  _site {
-    globalSeo {
-      fallbackSeo {
-        description
-        title
-      }
-    }
-  }
   page {
-    seoKeywords
+    intro1(locale: ${lng})
+    intro2(locale: ${lng})
+    intro3(locale: ${lng})
   }
 }
 `

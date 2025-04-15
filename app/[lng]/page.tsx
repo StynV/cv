@@ -6,8 +6,12 @@ import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher'
 import VolunteerWork from '@/components/VolunteerWork/VolunteerWork'
 import WorkExperience from '@/components/WorkExperience/WorkExperience'
 import { performRequest } from '@/datocms/performRequest'
-import { HOME_PAGE_HEADER_QUERY } from '@/datocms/queries'
+import {
+  HOME_PAGE_HEADER_QUERY,
+  HOME_PAGE_INTRO_QUERY,
+} from '@/datocms/queries'
 import { HeaderData } from '@/models/headerData'
+import { IntroData } from '@/models/introData'
 
 import styles from './page.module.css'
 
@@ -22,11 +26,17 @@ export default async function Home({
     query: HOME_PAGE_HEADER_QUERY(lng),
   })
 
+  const {
+    data: { page: introData },
+  } = await performRequest<{ data: { page: IntroData } }>({
+    query: HOME_PAGE_INTRO_QUERY(lng),
+  })
+
   return (
     <main className={styles.main}>
       <Header lng={lng} headerData={headerData} />
       <LanguageSwitcher currentLng={lng} />
-      <Intro lng={lng} />
+      <Intro lng={lng} introData={introData} />
       <WorkExperience lng={lng} />
       <Education lng={lng} />
       <VolunteerWork lng={lng} />
