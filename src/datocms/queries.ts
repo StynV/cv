@@ -46,22 +46,33 @@ query MyQuery {
 export const HOME_PAGE_WORK_EXPERIENCE_QUERY = (lng: string) => `
 query MyQuery {
   page {
-    calqiTitle(locale: ${lng})
+    calqiTitle
     calqiPeriod(locale: ${lng})
     calqiText1(locale: ${lng})
     calqiText2(locale: ${lng})
     calqiText3(locale: ${lng})
-    twoPointOTitle(locale: ${lng})
+    twoPointOTitle
     twoPointOPeriod(locale: ${lng})
-    twoPointOBeatTitle(locale: ${lng})
+    twoPointOBeatTitle
     twoPointOBeatDescription(locale: ${lng})
-    twoPointOBeameryTitle(locale: ${lng})
+    twoPointOBeameryTitle
     twoPointOBeameryDescription(locale: ${lng})
-    twoPointOTroubleshootingPageTitle(locale: ${lng})
+    twoPointOTroubleshootingPageTitle
     twoPointOTroubleshootingPageDescription(locale: ${lng})
-    twoPointOPocTitle(locale: ${lng})
+    twoPointOPocTitle
     twoPointOPocDescription(locale: ${lng})
     twoPointOText1(locale: ${lng})
+    oddballTitle
+    oddballPeriod(locale: ${lng})
+    oddballText1(locale: ${lng})
+    oddballText2(locale: ${lng})
+    oddballKeyProjects(locale: ${lng})
+    oddballTheValueChainTitle
+    oddballTheValueChainDescription(locale: ${lng})
+    oddballBrightestTitle
+    oddballBrightestDescription(locale: ${lng})
+    oddballLincTitle
+    oddballLincDescription(locale: ${lng})
   }
 }
 `

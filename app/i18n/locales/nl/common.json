@@ -58,45 +58,7 @@
   },
   "workExperience": {
     "title": "Werkervaring",
-    "blockTwoPointO": {
-      "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
-      "period": "April 2024 - Augustus 2024",
-      "text1": "<p>Bij <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> heb ik gewerkt als frontend consultant aan onderstaande projecten.</p>",
-      "beat": {
-        "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "Mijn eerste project was een website voor het <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. Ik hielp mee aan de opzet van de frontend en de eerste componenten.</p>"
-      },
-      "beamery": {
-        "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
-        "description": "<p>Ik heb meegeholpen aan de redesign van <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website. Hier leverde ik een paar componenten op die UI & UX verbeterden.</p>"
-      },
-      "troubleshootingPage": {
-        "title": "POC troubleshooting page",
-        "description": "Ik heb een pagina gemaakt voor de bedrijfswebsite. Deze wordt gebruikt om klanten te helpen bij technische problemen door details over hun browser te tonen."
-      },
-      "poc": {
-        "title": "POC",
-        "description": "Als laatste heb ik twee proof-of-concept mee gemaakt voor potentiële klanten."
-      }
-    },
     "blockOddball": {
-      "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
-      "period": "Januari 2023 - November 2023",
-      "text1": "Ik startte in deze agency als deel van een team van 4 developers met 1 teamlead, maar nam tegen het einde de verantwoordelijkheid op om het team alleen te leiden.",
-      "text2": "Onze focus was het volledig zelf maken van volwaardige websites van begin tot einde. Dit was ook mijn eerste echte ervaring in het releasen van websites via Google Cloud.",
-      "keyProjects": "Belangrijke projecten",
-      "tvc": {
-        "title": "TheValueChain",
-        "description": "<p>Ons team had een website gemaakt voor het grootste bedrijf van <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>.  Hiervoor hebben we herbruikbare componenten gemaakt, feedback van de klant toegepast en de launch voorzien.</p>"
-      },
-      "brightest": {
-        "title": "Brightest",
-        "description": "Voor het tweede grootste bedrijf van Gumption hebben we hetzelfde gedaan met een gelijkaardige tech-stack."
-      },
-      "linc": {
-        "title": "Linc.legal",
-        "description": " Als laatste hebben we ook de website gemaakt voor een advocatenkantoor uit Antwerpen. Hierbij gebruikten we dezelfde tech-stack en best practices van de vorige projecten."
-      },
       "technologies": "Deze websites gebruiken deze technologieën:",
       "responsibility": "Het was ook mijn verantwoordelijkheid voor de go-live. Dit hield in het deployen van de site & DNS configureren."
     },

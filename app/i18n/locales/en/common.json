@@ -58,45 +58,7 @@
   },
   "workExperience": {
     "title": "Work experience",
-    "blockTwoPointO": {
-      "title": "<h2><a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a></h2>",
-      "period": "April 2024 - August 2024",
-      "text1": "<p>I worked at <a href=\"https://two-point-o.com/\" target=\"_blank\">Two Point O</a> as a frontend on these projects.</p>",
-      "beat": {
-        "title": "<h3><a href=\"https://beatvenues.be/\" target=\"_blank\">Be•at</a></h3>",
-        "description": "<p>My first project was a website for the <a href=\"https://www.sportpaleis.be/\" target=\"_blank\">Sportpaleis</a>. I helped on the setup of the frontend and it’s components.</p>"
-      },
-      "beamery": {
-        "title": "<h3><a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a></h3>",
-        "description": "<p>I contributed to the redesign of <a href=\"https://beamery.com/\" target=\"_blank\">Beamery</a>'s website, improving UI/UX and performance.</p>"
-      },
-      "troubleshootingPage": {
-        "title": "POC troubleshooting page",
-        "description": "I developed an internal troubleshooting page for the company website. This page helps customers diagnose technical issues by displaying system specifications."
-      },
-      "poc": {
-        "title": "POC",
-        "description": "Lastly I co-developed two proof-of-concept projects for potential future initiatives."
-      }
-    },
     "blockOddball": {
-      "title": "<h2><a href=\"https://oddball.be/\" target=\"_blank\">Oddball</a> / <a href=\"https://purplepanda.be/\" target=\"_blank\">Purple Panda</a></h2>",
-      "period": "January 2023 - November 2023",
-      "text1": "I started as part of a 4-member team with 1 teamlead and eventually took on the responsibility of leading the team independently.",
-      "text2": "Our focus was the complete custom development of complex websites from concept until release. This was also my first real experience in releasing websites using Google Cloud.",
-      "keyProjects": "Key Projects",
-      "tvc": {
-        "title": "TheValueChain",
-        "description": "<p>We developed the website for <a href=\"https://www.gumption.eu/\" target=\"_blank\">Gumption</a>’s largest company, creating reusable components, fixing bugs, and handling change requests post-launch.</p>"
-      },
-      "brightest": {
-        "title": "Brightest",
-        "description": "We also built the website for Gumption’s second-largest company, utilizing a similar tech stack and development process as TheValueChain."
-      },
-      "linc": {
-        "title": "Linc.legal",
-        "description": "Lastly we also designed and developed a website for this Antwerp-based law firm, maintaining consistency in technology and best practices across projects."
-      },
       "technologies": "All of these websites use these technologies:",
       "responsibility": "It was also my responsibility for the go-live. This includes deploying the website and configuring DNS."
     },

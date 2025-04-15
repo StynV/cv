@@ -6,6 +6,7 @@ export interface WorkExperienceData {
   calqiText3: string
   twoPointOTitle: string
   twoPointOPeriod: string
+  twoPointOText1: string
   twoPointOBeatTitle: string
   twoPointOBeatDescription: string
   twoPointOBeameryTitle: string
@@ -14,5 +15,15 @@ export interface WorkExperienceData {
   twoPointOTroubleshootingPageDescription: string
   twoPointOPocTitle: string
   twoPointOPocDescription: string
-  twoPointOText1: string
+  oddballTitle: string
+  oddballPeriod: string
+  oddballText1: string
+  oddballText2: string
+  oddballKeyProjects: string
+  oddballTheValueChainTitle: string
+  oddballTheValueChainDescription: string
+  oddballBrightestTitle: string
+  oddballBrightestDescription: string
+  oddballLincTitle: string
+  oddballLincDescription: string
 }

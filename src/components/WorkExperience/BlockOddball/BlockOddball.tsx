@@ -1,55 +1,59 @@
 import { useTranslation } from '@app/i18n'
 
 import YGWYS from '@/components/YGWYS/YGWYS'
+import { WorkExperienceData } from '@/models/workExperienceData'
 
 import Block from '../../Block/Block'
 
 import styles from './block-oddball.module.scss'
 
-const BlockOddball = async ({ lng }: { lng: string }) => {
+const BlockOddball = async ({
+  lng,
+  workExperienceData,
+}: {
+  lng: string
+  workExperienceData: WorkExperienceData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <Block
-      title={t('workExperience.blockOddball.title')}
-      period={t('workExperience.blockOddball.period')}
+      title={workExperienceData.oddballTitle}
+      period={workExperienceData.oddballPeriod}
     >
       <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockOddball.text1')}
+        {workExperienceData.oddballText1}
       </p>
       <p className={`${styles.text} ${styles.textIntro}`}>
-        {t('workExperience.blockOddball.text2')}
+        {workExperienceData.oddballText2}
       </p>
 
       <h2 className={styles.blockTitle}>
-        {t('workExperience.blockOddball.keyProjects')}
+        {workExperienceData.oddballKeyProjects}
       </h2>
 
       <h3 className={styles.linkTitle}>
-        {t('workExperience.blockOddball.tvc.title')}
-      </h3>
-
-      <YGWYS
-        html={t('workExperience.blockOddball.tvc.description')}
-        className={styles.text}
-      />
-
-      <h3 className={styles.linkTitle}>
-        {t('workExperience.blockOddball.brightest.title')}
+        {workExperienceData.oddballTheValueChainTitle}
       </h3>
 
       <p className={styles.text}>
-        {t('workExperience.blockOddball.brightest.description')}
+        {workExperienceData.oddballTheValueChainDescription}
+      </p>
+
+      <h3 className={styles.linkTitle}>
+        {workExperienceData.oddballBrightestTitle}
+      </h3>
+
+      <p className={styles.text}>
+        {workExperienceData.oddballBrightestDescription}
       </p>
 
       <a href="https://linc.legal/" target="_blank">
         <h3 className={styles.linkTitle}>
-          {t('workExperience.blockOddball.linc.title')}
+          {workExperienceData.oddballLincTitle}
         </h3>
       </a>
-      <p className={styles.text}>
-        {t('workExperience.blockOddball.linc.description')}
-      </p>
+      <p className={styles.text}>{workExperienceData.oddballLincDescription}</p>
 
       <h2>{t('workExperience.blockOddball.technologies')}</h2>
       <h3 className={styles.linkTitle}>{t('technologies.frontend')}</h3>
