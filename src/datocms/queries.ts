@@ -51,6 +51,17 @@ query MyQuery {
     calqiText1(locale: ${lng})
     calqiText2(locale: ${lng})
     calqiText3(locale: ${lng})
+    twoPointOTitle(locale: ${lng})
+    twoPointOPeriod(locale: ${lng})
+    twoPointOBeatTitle(locale: ${lng})
+    twoPointOBeatDescription(locale: ${lng})
+    twoPointOBeameryTitle(locale: ${lng})
+    twoPointOBeameryDescription(locale: ${lng})
+    twoPointOTroubleshootingPageTitle(locale: ${lng})
+    twoPointOTroubleshootingPageDescription(locale: ${lng})
+    twoPointOPocTitle(locale: ${lng})
+    twoPointOPocDescription(locale: ${lng})
+    twoPointOText1(locale: ${lng})
   }
 }
 `

@@ -1,54 +1,61 @@
 import { useTranslation } from '@app/i18n'
 
 import YGWYS from '@/components/YGWYS/YGWYS'
+import { WorkExperienceData } from '@/models/workExperienceData'
 
 import Block from '../../Block/Block'
 
 import styles from './block-two-point-o.module.scss'
 
-const BlockTwoPointO = async ({ lng }: { lng: string }) => {
+const BlockTwoPointO = async ({
+  lng,
+  workExperienceData,
+}: {
+  lng: string
+  workExperienceData: WorkExperienceData
+}) => {
   const { t } = await useTranslation(lng)
 
   return (
     <Block
-      title={t('workExperience.blockTwoPointO.title')}
-      period={t('workExperience.blockTwoPointO.period')}
+      title={workExperienceData.twoPointOTitle}
+      period={workExperienceData.twoPointOPeriod}
     >
       <YGWYS
-        html={t('workExperience.blockTwoPointO.text1')}
+        html={workExperienceData.twoPointOText1}
         className={`${styles.text} ${styles.textIntro}`}
       />
 
       <YGWYS
-        html={t('workExperience.blockTwoPointO.beat.title')}
+        html={workExperienceData.twoPointOBeatTitle}
         className={styles.linkTitle}
       />
       <YGWYS
-        html={t('workExperience.blockTwoPointO.beat.description')}
+        html={workExperienceData.twoPointOBeatDescription}
         className={styles.text}
       />
 
       <YGWYS
-        html={t('workExperience.blockTwoPointO.beamery.title')}
+        html={workExperienceData.twoPointOBeameryTitle}
         className={styles.linkTitle}
       />
       <YGWYS
-        html={t('workExperience.blockTwoPointO.beamery.description')}
+        html={workExperienceData.twoPointOBeameryDescription}
         className={styles.text}
       />
 
       <h3 className={styles.linkTitle}>
-        {t('workExperience.blockTwoPointO.troubleshootingPage.title')}
+        {workExperienceData.twoPointOTroubleshootingPageTitle}
       </h3>
       <p className={styles.text}>
-        {t('workExperience.blockTwoPointO.troubleshootingPage.description')}
+        {workExperienceData.twoPointOTroubleshootingPageDescription}
       </p>
 
       <h3 className={styles.linkTitle}>
-        {t('workExperience.blockTwoPointO.poc.title')}
+        {workExperienceData.twoPointOPocTitle}
       </h3>
       <p className={styles.text}>
-        {t('workExperience.blockTwoPointO.poc.description')}
+        {workExperienceData.twoPointOPocDescription}
       </p>
 
       <h2>{t('technologies.title')}</h2>

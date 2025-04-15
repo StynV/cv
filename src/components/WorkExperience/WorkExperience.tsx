@@ -28,7 +28,7 @@ const WorkExperience = async ({
       <h1 className={styles.title}>{t('workExperience.title')}</h1>
 
       <BlockCalqi workExperienceData={workExperienceData} lng={lng} />
-      <BlockTwoPointO lng={lng} />
+      <BlockTwoPointO lng={lng} workExperienceData={workExperienceData} />
       <BlockOddball lng={lng} />
       <BlockDXC lng={lng} />
       <BlockInternship lng={lng} />
